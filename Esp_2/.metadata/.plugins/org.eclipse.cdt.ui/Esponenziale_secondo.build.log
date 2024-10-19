@@ -1,0 +1,10 @@
+11:43:26 **** Incremental Build of configuration Debug for project Esponenziale_secondo ****
+make -j22 all 
+arm-none-eabi-size  Esponenziale_secondo.elf 
+   text	   data	    bss	    dec	    hex	filename
+  27720	    292	   5548	  33560	   8318	Esponenziale_secondo.elf
+Finished building: default.size.stdout
+ 
+
+11:43:26 Build Finished. 0 errors, 0 warnings. (took 314ms)
+

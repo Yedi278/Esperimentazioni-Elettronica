@@ -1,0 +1,13 @@
+/*
+ * Custom_usart.h
+ *
+ *  Created on: Oct 17, 2024
+ *      Author: yehan
+ */
+
+#ifndef CUSTOM_USART_H_
+#define CUSTOM_USART_H_
+
+void init_Usart();
+
+#endif /* CUSTOM_USART_H_ */

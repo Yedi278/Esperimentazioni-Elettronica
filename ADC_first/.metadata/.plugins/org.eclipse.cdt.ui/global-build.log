@@ -1,0 +1,1747 @@
+12:23:26 **** Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_ll_usb.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32h743zitx.d" -MT"Core/Startup/startup_stm32h743zitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32h743zitx.o" "../Core/Startup/startup_stm32h743zitx.s"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/memorymap.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/memorymap.d" -MT"Core/Src/memorymap.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/memorymap.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h7xx.d" -MT"Core/Src/system_stm32h7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h7xx.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+In file included from ../Core/Src/Custom_usart.c:8:
+../Core/Inc/Custom_usart.h:14:10: fatal error: Esponenziale.h: No such file or directory
+   14 | #include "Esponenziale.h"
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../Core/Src/usb_otg.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usb_otg.d" -MT"Core/Src/usb_otg.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usb_otg.o"
+make: *** [Core/Src/subdir.mk:52: Core/Src/Custom_usart.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:30:27 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/memorymap.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/memorymap.d" -MT"Core/Src/memorymap.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/memorymap.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h7xx.d" -MT"Core/Src/system_stm32h7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h7xx.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc "../Core/Src/usb_otg.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/usb_otg.d" -MT"Core/Src/usb_otg.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usb_otg.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  38016	     16	   3072	  41104	   a090	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+12:30:35 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38016	     16	   3072	  41104	   a090	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+15:41:00 **** Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:41:25: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   41 |         while(ADC3->ISR & ADC_ISR_ADRDY != 0);
+      |                         ^
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:57:18: warning: unused variable 'temp_raw' [-Wunused-variable]
+   57 |         uint16_t temp_raw = ADC3->DR;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33356	     16	   3072	  36444	   8e5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+15:42:40 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:41:25: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   41 |         while(ADC3->ISR & ADC_ISR_ADRDY != 0);
+      |                         ^
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:57:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   57 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33356	     16	   3072	  36444	   8e5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+15:48:40 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:41:25: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+   41 |         while(ADC3->ISR & ADC_ISR_ADRDY != 0);
+      |                         ^
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:59:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   59 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33384	     16	   3072	  36472	   8e78	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+15:50:33 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:59:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   59 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33384	     16	   3072	  36472	   8e78	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+15:51:07 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33384	     16	   3072	  36472	   8e78	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+15:52:20 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33420	     16	   3072	  36508	   8e9c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+15:52:24 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33420	     16	   3072	  36508	   8e9c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+15:56:27 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33420	     16	   3072	  36508	   8e9c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+15:58:39 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:59:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   59 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33416	     16	   3072	  36504	   8e98	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:04:00 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:60:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   60 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33424	     16	   3072	  36512	   8ea0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:06:13 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:60:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   60 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33424	     16	   3072	  36512	   8ea0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:06:32 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33424	     16	   3072	  36512	   8ea0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+16:08:47 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:60:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   60 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33448	     16	   3072	  36536	   8eb8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:11:25 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:25:44: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   25 |         while((ADC3->ISR & ADC_ISR_LDORDY) != 1){
+      |                                            ^~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:68:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   68 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33464	     16	   3072	  36552	   8ec8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:15:19 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:25:44: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   25 |         while((ADC3->ISR & ADC_ISR_LDORDY) != 1){
+      |                                            ^~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:65:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   65 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33464	     16	   3072	  36552	   8ec8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:40:47 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33464	     16	   3072	  36552	   8ec8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+16:41:22 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33464	     16	   3072	  36552	   8ec8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+16:43:38 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:26:44: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   26 |         while((ADC3->ISR & ADC_ISR_LDORDY) != 1){
+      |                                            ^~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:66:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   66 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33464	     16	   3072	  36552	   8ec8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:43:45 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33464	     16	   3072	  36552	   8ec8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+16:50:41 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:26:44: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   26 |         while((ADC3->ISR & ADC_ISR_LDORDY) != 1){
+      |                                            ^~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:66:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   66 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33448	     16	   3072	  36536	   8eb8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:50:53 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:26:44: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   26 |         while((ADC3->ISR & ADC_ISR_LDORDY) != 1){
+      |                                            ^~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:66:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   66 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33452	     16	   3072	  36540	   8ebc	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:51:00 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  33452	     16	   3072	  36540	   8ebc	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+16:52:05 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32008	     16	   3072	  35096	   8918	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+16:52:12 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32008	     16	   3072	  35096	   8918	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:07:31 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_init':
+../Core/Src/Custom_ADC.c:26:44: warning: bitwise comparison always evaluates to true [-Wtautological-compare]
+   26 |         while((ADC3->ISR & ADC_ISR_LDORDY) != 1){}
+      |                                            ^~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:62:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   62 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32008	     16	   3072	  35096	   8918	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:08:42 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32008	     16	   3072	  35096	   8918	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:10:07 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:62:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   62 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  31968	     16	   3072	  35056	   88f0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:24:09 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:64:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   64 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:3: warning: implicit declaration of function 'HAL_DAC_Start'; did you mean 'HAL_ADC_Start'? [-Wimplicit-function-declaration]
+   99 |   HAL_DAC_Start();
+      |   ^~~~~~~~~~~~~
+      |   HAL_ADC_Start
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Src/main.c:99: undefined reference to `HAL_DAC_Start'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: ADC_Test.elf] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+17:24:33 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:3: warning: implicit declaration of function 'HAL_DAC_Start'; did you mean 'HAL_ADC_Start'? [-Wimplicit-function-declaration]
+   99 |   HAL_DAC_Start(&hdac1,DAC_CHANNEL_18);
+      |   ^~~~~~~~~~~~~
+      |   HAL_ADC_Start
+../Core/Src/main.c:99:18: error: 'hdac1' undeclared (first use in this function)
+   99 |   HAL_DAC_Start(&hdac1,DAC_CHANNEL_18);
+      |                  ^~~~~
+../Core/Src/main.c:99:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:99:24: error: 'DAC_CHANNEL_18' undeclared (first use in this function); did you mean 'ADC_CHANNEL_18'?
+   99 |   HAL_DAC_Start(&hdac1,DAC_CHANNEL_18);
+      |                        ^~~~~~~~~~~~~~
+      |                        ADC_CHANNEL_18
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+17:24:36 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:3: warning: implicit declaration of function 'HAL_DAC_Start'; did you mean 'HAL_ADC_Start'? [-Wimplicit-function-declaration]
+   99 |   HAL_DAC_Start(&hdac1,DAC_CHANNEL_18);
+      |   ^~~~~~~~~~~~~
+      |   HAL_ADC_Start
+../Core/Src/main.c:99:18: error: 'hdac1' undeclared (first use in this function)
+   99 |   HAL_DAC_Start(&hdac1,DAC_CHANNEL_18);
+      |                  ^~~~~
+../Core/Src/main.c:99:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:99:24: error: 'DAC_CHANNEL_18' undeclared (first use in this function); did you mean 'ADC_CHANNEL_18'?
+   99 |   HAL_DAC_Start(&hdac1,DAC_CHANNEL_18);
+      |                        ^~~~~~~~~~~~~~
+      |                        ADC_CHANNEL_18
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+17:25:08 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:18: error: 'hdac1' undeclared (first use in this function)
+   99 |   HAL_ADC_Start(&hdac1,ADC_CHANNEL_18);
+      |                  ^~~~~
+../Core/Src/main.c:99:18: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:99:3: error: too many arguments to function 'HAL_ADC_Start'
+   99 |   HAL_ADC_Start(&hdac1,ADC_CHANNEL_18);
+      |   ^~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:303,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_adc.h:1951:25: note: declared here
+ 1951 | HAL_StatusTypeDef       HAL_ADC_Start(ADC_HandleTypeDef *hadc);
+      |                         ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+17:25:45 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:99:18: error: 'hdac1' undeclared (first use in this function)
+   99 |   HAL_ADC_Start(&hdac1);
+      |                  ^~~~~
+../Core/Src/main.c:99:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+17:25:55 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  31968	     16	   3072	  35056	   88f0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:27:29 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31968	     16	   3072	  35056	   88f0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:28:43 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31968	     16	   3072	  35056	   88f0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:30:12 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31968	     16	   3072	  35056	   88f0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:32:19 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31968	     16	   3072	  35056	   88f0	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:34:26 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  24200	     16	   2968	  27184	   6a30	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:35:49 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24200	     16	   2968	  27184	   6a30	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:36:29 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24200	     16	   2968	  27184	   6a30	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:36:33 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24200	     16	   2968	  27184	   6a30	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:38:10 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:68:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   68 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  24220	     16	   2968	  27204	   6a44	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:39:55 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24220	     16	   2968	  27204	   6a44	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:40:01 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24220	     16	   2968	  27204	   6a44	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:43:52 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24220	     16	   2968	  27204	   6a44	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:48:58 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   69 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  24244	     16	   2968	  27228	   6a5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:52:54 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   69 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  24244	     16	   2968	  27228	   6a5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:55:23 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24244	     16	   2968	  27228	   6a5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:55:31 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24244	     16	   2968	  27228	   6a5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:56:41 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24244	     16	   2968	  27228	   6a5c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+17:57:39 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:18: warning: variable 'temp_raw' set but not used [-Wunused-but-set-variable]
+   69 |         uint16_t temp_raw = 0;
+      |                  ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  24232	     16	   2968	  27216	   6a50	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+17:59:56 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32000	     16	   3072	  35088	   8910	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:09:12 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:71:18: warning: unused variable 'temp' [-Wunused-variable]
+   71 |         uint32_t temp = (80000*(temp_raw - TS_CAL_30C)/(TS_CAL_110C - TS_CAL_30C)) + 30000;
+      |                  ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32052	     16	   3072	  35140	   8944	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:10:13 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32052	     16	   3072	  35140	   8944	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+18:12:49 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33496	     16	   3072	  36584	   8ee8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:14:15 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:70:18: warning: unused variable 'temp' [-Wunused-variable]
+   70 |         uint32_t temp = (80000*(temp_raw - TS_CAL_30C)/(TS_CAL_110C - TS_CAL_30C)) + 30000;
+      |                  ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33492	     16	   3072	  36580	   8ee4	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:18:05 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:70:18: warning: unused variable 'temp' [-Wunused-variable]
+   70 |         uint32_t temp = ( (80000*(temp_raw - TS_CAL_30C)) / (TS_CAL_110C - TS_CAL_30C) ) + 30000;
+      |                  ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33492	     16	   3072	  36580	   8ee4	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:19:10 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:70:18: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   70 |         uint32_t temp = 0;
+      |                  ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33496	     16	   3072	  36584	   8ee8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:19:48 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:72:18: warning: unused variable 'a' [-Wunused-variable]
+   72 |         uint32_t a =0;
+      |                  ^
+../Core/Src/Custom_ADC.c:70:18: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   70 |         uint32_t temp = 0;
+      |                  ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33500	     16	   3072	  36588	   8eec	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:23:27 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a =0;
+      |                          ^
+../Core/Src/Custom_ADC.c:72:26: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+   72 |                 uint32_t temp = 0;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33512	     16	   3072	  36600	   8ef8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:24:50 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33512	     16	   3072	  36600	   8ef8	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:26:32 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32068	     16	   3072	  35156	   8954	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:31:15 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32068	     16	   3072	  35156	   8954	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:32:05 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32056	     16	   3072	  35144	   8948	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:32:50 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     16	   3072	  35148	   894c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:34:41 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     16	   3072	  35148	   894c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:34:53 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     16	   3072	  35148	   894c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:34:58 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-size  ADC_Test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  32060	     16	   3072	  35148	   894c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+18:36:14 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+In file included from ../Core/Src/Custom_ADC.c:7:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/Custom_usart.c:8:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+make: *** [Core/Src/subdir.mk:55: Core/Src/Custom_usart.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:55: Core/Src/Custom_ADC.o] Error 1
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/main.c:29:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+make: *** [Core/Src/subdir.mk:55: Core/Src/stm32h7xx_it.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+18:36:24 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/Custom_usart.c:8:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+In file included from ../Core/Src/Custom_ADC.c:7:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+make: *** [Core/Src/subdir.mk:55: Core/Src/Custom_usart.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:55: Core/Src/Custom_ADC.o] Error 1
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/main.c:29:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:17:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   17 | uint16 Const_1 = 80000;
+      | ^~~~~~
+      | uint16_t
+../Core/Inc/Custom_ADC.h:18:1: error: unknown type name 'uint16'; did you mean 'uint16_t'?
+   18 | uint16 Const_2 = 30000;
+      | ^~~~~~
+      | uint16_t
+make: *** [Core/Src/subdir.mk:55: Core/Src/stm32h7xx_it.o] Error 1
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+18:37:30 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+In file included from ../Core/Src/Custom_ADC.c:7:
+../Core/Inc/Custom_ADC.h:17:20: warning: unsigned conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} changes value from '80000' to '14464' [-Woverflow]
+   17 | uint16_t Const_1 = 80000;
+      |                    ^~~~~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:69:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   69 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:74:26: warning: unused variable 'a' [-Wunused-variable]
+   74 |                 uint32_t a = temp;
+      |                          ^
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/Custom_usart.c:8:
+../Core/Inc/Custom_ADC.h:17:20: warning: unsigned conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} changes value from '80000' to '14464' [-Woverflow]
+   17 | uint16_t Const_1 = 80000;
+      |                    ^~~~~
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:17:20: warning: unsigned conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} changes value from '80000' to '14464' [-Woverflow]
+   17 | uint16_t Const_1 = 80000;
+      |                    ^~~~~
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/main.c:29:
+../Core/Inc/Custom_ADC.h:17:20: warning: unsigned conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} changes value from '80000' to '14464' [-Woverflow]
+   17 | uint16_t Const_1 = 80000;
+      |                    ^~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/Custom_usart.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/Custom_usart.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32h7xx_it.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32h7xx_it.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: ADC_Test.elf] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+18:37:45 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+In file included from ../Core/Src/Custom_ADC.c:7:
+../Core/Inc/Custom_ADC.h:17:20: warning: unsigned conversion from 'int' to 'uint16_t' {aka 'short unsigned int'} changes value from '80000' to '14464' [-Woverflow]
+   17 | uint16_t Const_1 = 80000;
+      |                    ^~~~~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:67:38: warning: bitwise comparison always evaluates to false [-Wtautological-compare]
+   67 |         if((ADC3->ISR & ADC_ISR_EOC) == 1 || 1){
+      |                                      ^~
+../Core/Src/Custom_ADC.c:72:26: warning: unused variable 'a' [-Wunused-variable]
+   72 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/Custom_usart.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/Custom_usart.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32h7xx_it.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32h7xx_it.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: ADC_Test.elf] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+18:39:46 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:71:26: warning: unused variable 'a' [-Wunused-variable]
+   71 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/Custom_usart.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/Custom_usart.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32h7xx_it.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: multiple definition of `Const_1'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:17: first defined here
+C:/ST/STM32CubeIDE_1.16.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.200.202406191623/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32h7xx_it.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: multiple definition of `Const_2'; ./Core/Src/Custom_ADC.o:C:/Users/yehan/Documents/Uni/Esperimentazioni Elettronica/ADC_first/ADC_Test/Debug/../Core/Inc/Custom_ADC.h:18: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: ADC_Test.elf] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+18:41:14 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:26: warning: unused variable 'a' [-Wunused-variable]
+   76 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     24	   3072	  35156	   8954	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:42:58 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:26: warning: unused variable 'a' [-Wunused-variable]
+   76 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     24	   3072	  35156	   8954	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:56:39 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:26: warning: unused variable 'a' [-Wunused-variable]
+   76 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     24	   3072	  35156	   8954	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:31:11 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:74:18: warning: unused variable 'a' [-Wunused-variable]
+   74 |         uint32_t a = temp;
+      |                  ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32060	     24	   3072	  35156	   8954	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:55:11 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+In file included from ../Core/Src/Custom_ADC.c:7:
+../Core/Inc/Custom_ADC.h:14:8: warning: type defaults to 'int' in declaration of 'data_buffer' [-Wimplicit-int]
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:73:18: warning: unused variable 'a' [-Wunused-variable]
+   73 |         uint32_t a = temp;
+      |                  ^
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/Custom_usart.c:8:
+../Core/Inc/Custom_ADC.h:14:8: warning: type defaults to 'int' in declaration of 'data_buffer' [-Wimplicit-int]
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+../Core/Src/Custom_usart.c:10:10: error: conflicting types for 'data_buffer'; have 'uint16_t[1000]' {aka 'short unsigned int[1000]'}
+   10 | uint16_t data_buffer[1000];
+      |          ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:8: note: previous declaration of 'data_buffer' with type 'int[]'
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:55: Core/Src/Custom_usart.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/main.c:29:
+../Core/Inc/Custom_ADC.h:14:8: warning: type defaults to 'int' in declaration of 'data_buffer' [-Wimplicit-int]
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:14:8: warning: type defaults to 'int' in declaration of 'data_buffer' [-Wimplicit-int]
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+19:55:16 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+In file included from ../Core/Inc/Custom_usart.h:14,
+                 from ../Core/Src/Custom_usart.c:8:
+../Core/Inc/Custom_ADC.h:14:8: warning: type defaults to 'int' in declaration of 'data_buffer' [-Wimplicit-int]
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+../Core/Src/Custom_usart.c:10:10: error: conflicting types for 'data_buffer'; have 'uint16_t[1000]' {aka 'short unsigned int[1000]'}
+   10 | uint16_t data_buffer[1000];
+      |          ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:8: note: previous declaration of 'data_buffer' with type 'int[]'
+   14 | extern data_buffer[];
+      |        ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:55: Core/Src/Custom_usart.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+19:55:27 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:73:18: warning: unused variable 'a' [-Wunused-variable]
+   73 |         uint32_t a = temp;
+      |                  ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  32072	     24	   3072	  35168	   8960	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+18:58:03 **** Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:73:18: warning: unused variable 'a' [-Wunused-variable]
+   73 |         uint32_t a = temp;
+      |                  ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33508	     24	   3072	  36604	   8efc	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:01:18 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:73:26: warning: unused variable 'a' [-Wunused-variable]
+   73 |                 uint32_t a = temp;
+      |                          ^
+../Core/Src/Custom_ADC.c:77:26: warning: unused variable 'a' [-Wunused-variable]
+   77 |                 uint32_t a = temp;
+      |                          ^
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33572	     24	   3072	  36668	   8f3c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:22:38 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:16: warning: type defaults to 'int' in declaration of 'ADC3_interr_number' [-Wimplicit-int]
+   76 |         extern ADC3_interr_number;
+      |                ^~~~~~~~~~~~~~~~~~
+../Core/Src/Custom_ADC.c:83:34: warning: unused variable 'a' [-Wunused-variable]
+   83 |                         uint32_t a = temp;
+      |                                  ^
+../Core/Src/Custom_ADC.c:88:34: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   88 |                         uint16_t voltage_raw = ADC3->DR;
+      |                                  ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:93:26: warning: unused variable 'raw_data' [-Wunused-variable]
+   93 |                 uint16_t raw_data = ADC3->DR;
+      |                          ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33608	     24	   3072	  36704	   8f60	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:24:57 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:16: warning: type defaults to 'int' in declaration of 'ADC3_interr_number' [-Wimplicit-int]
+   76 |         extern ADC3_interr_number;
+      |                ^~~~~~~~~~~~~~~~~~
+../Core/Src/Custom_ADC.c:82:34: warning: unused variable 'temp' [-Wunused-variable]
+   82 |                         uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                                  ^~~~
+../Core/Src/Custom_ADC.c:89:34: warning: unused variable 'a' [-Wunused-variable]
+   89 |                         uint16_t a = 0;
+      |                                  ^
+../Core/Src/Custom_ADC.c:88:34: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   88 |                         uint16_t voltage_raw = ADC3->DR;
+      |                                  ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:95:26: warning: unused variable 'a' [-Wunused-variable]
+   95 |                 uint16_t a = 0;
+      |                          ^
+../Core/Src/Custom_ADC.c:94:26: warning: unused variable 'raw_data' [-Wunused-variable]
+   94 |                 uint16_t raw_data = ADC3->DR;
+      |                          ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33612	     24	   3072	  36708	   8f64	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:26:10 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:16: warning: type defaults to 'int' in declaration of 'ADC3_interr_number' [-Wimplicit-int]
+   76 |         extern ADC3_interr_number;
+      |                ^~~~~~~~~~~~~~~~~~
+../Core/Src/Custom_ADC.c:81:34: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   81 |                         uint16_t voltage_raw = ADC3->DR;
+      |                                  ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:88:34: warning: unused variable 'temp' [-Wunused-variable]
+   88 |                         uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                                  ^~~~
+../Core/Src/Custom_ADC.c:94:26: warning: unused variable 'a' [-Wunused-variable]
+   94 |                 uint16_t a = 0;
+      |                          ^
+../Core/Src/Custom_ADC.c:93:26: warning: unused variable 'raw_data' [-Wunused-variable]
+   93 |                 uint16_t raw_data = ADC3->DR;
+      |                          ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33608	     24	   3072	  36704	   8f60	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:27:53 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:16: warning: type defaults to 'int' in declaration of 'ADC3_interr_number' [-Wimplicit-int]
+   76 |         extern ADC3_interr_number;
+      |                ^~~~~~~~~~~~~~~~~~
+../Core/Src/Custom_ADC.c:82:34: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   82 |                         uint16_t voltage_raw = ADC3->DR;
+      |                                  ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:89:34: warning: unused variable 'temp' [-Wunused-variable]
+   89 |                         uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                                  ^~~~
+../Core/Src/Custom_ADC.c:95:26: warning: unused variable 'a' [-Wunused-variable]
+   95 |                 uint16_t a = 0;
+      |                          ^
+../Core/Src/Custom_ADC.c:94:26: warning: unused variable 'raw_data' [-Wunused-variable]
+   94 |                 uint16_t raw_data = ADC3->DR;
+      |                          ^~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33588	     24	   3072	  36684	   8f4c	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:29:41 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:76:16: warning: type defaults to 'int' in declaration of 'ADC3_interr_number' [-Wimplicit-int]
+   76 |         extern ADC3_interr_number;
+      |                ^~~~~~~~~~~~~~~~~~
+../Core/Src/Custom_ADC.c:81:26: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   81 |                 uint16_t voltage_raw = ADC3->DR;
+      |                          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:88:26: warning: unused variable 'temp' [-Wunused-variable]
+   88 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33584	     24	   3072	  36680	   8f48	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:31:09 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:81:26: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   81 |                 uint16_t voltage_raw = ADC3->DR;
+      |                          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:88:26: warning: unused variable 'temp' [-Wunused-variable]
+   88 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33592	     24	   3072	  36688	   8f50	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:33:37 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:81:26: warning: unused variable 'voltage_raw' [-Wunused-variable]
+   81 |                 uint16_t voltage_raw = ADC3->DR;
+      |                          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:88:26: warning: unused variable 'temp' [-Wunused-variable]
+   88 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33584	     24	   3072	  36680	   8f48	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:46:50 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:83:26: warning: unused variable 'V_calibrata' [-Wunused-variable]
+   83 |                 uint32_t V_calibrata = ( (uint32_t)3300000 / (uint32_t)voltage_raw ) * VREFINT_C;
+      |                          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:89:26: warning: unused variable 'temp' [-Wunused-variable]
+   89 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33608	     24	   3072	  36704	   8f60	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:47:55 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:82:26: warning: unused variable 'temp' [-Wunused-variable]
+   82 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+../Core/Src/Custom_ADC.c:88:26: warning: unused variable 'V_calibrata' [-Wunused-variable]
+   88 |                 uint32_t V_calibrata = ( (uint32_t)3300000 / (uint32_t)voltage_raw ) * VREFINT_C;
+      |                          ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33608	     24	   3072	  36704	   8f60	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:49:13 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:82:26: warning: unused variable 'V_calibrata' [-Wunused-variable]
+   82 |                 uint32_t V_calibrata = ( (uint32_t)3300000 / (uint32_t)voltage_raw ) * (uint32_t)VREFINT_C;
+      |                          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:88:26: warning: unused variable 'temp' [-Wunused-variable]
+   88 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33608	     24	   3072	  36704	   8f60	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+19:50:51 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:82:26: warning: unused variable 'V_calibrata' [-Wunused-variable]
+   82 |                 uint32_t V_calibrata = ( (uint32_t)3300000 / (uint32_t)voltage_raw ) * (uint32_t)VREFINT_C;
+      |                          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:88:26: warning: unused variable 'temp' [-Wunused-variable]
+   88 |                 uint32_t temp = ((Const_1*((uint32_t)(temp_raw - TS_CAL_30C))) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + Const_2;
+      |                          ^~~~
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\ADC_first\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33608	     24	   3072	  36704	   8f60	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 

@@ -1,0 +1,21 @@
+/*
+ * Custom_usart.h
+ *
+ *  Created on: Oct 17, 2024
+ *      Author: yehan
+ */
+
+#ifndef CUSTOM_USART_H_
+#define CUSTOM_USART_H_
+
+/* INCLUDE */
+
+#include "stm32h743xx.h"
+
+/* FUNCTIONS */
+
+void init_usart3();
+
+void usart3_interrupt();
+
+#endif /* CUSTOM_USART_H_ */
