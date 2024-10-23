@@ -7,8 +7,7 @@
 
 #include "Custom_usart.h"
 
-uint16_t data_buffer[1000];
-unsigned char* data_buffer_8bit = (unsigned char*)data_buffer;
+unsigned char* converted_buffer_pointer;
 int data_index=0;
 
 void init_usart3(){
@@ -17,7 +16,7 @@ void init_usart3(){
     USART3->CR1 |= USART_CR1_RE;
 
     //USART3->CR1 ^= USART_CR1_TXEIE;
-    //USART3->CR1 |= USART_CR1_RXNEIE;
+    USART3->CR1 |= USART_CR1_RXNEIE;
 
     USART3->CR1 |= USART_CR1_UE;
 
@@ -25,6 +24,8 @@ void init_usart3(){
 
 void usart3_interrupt(){
 
+	extern uint32_t temp_buffer[];
+	extern data_index;
 
 	if(USART3->ISR & USART_ISR_RXNE_RXFNE){
 		if(USART3->ISR & USART_ISR_TXE_TXFNF){
@@ -36,6 +37,7 @@ void usart3_interrupt(){
 			if(received_data=='e'){
                 data_index=0;
 
+                converted_buffer_pointer = (unsigned char*)temp_buffer;
 				// FUNC() GENERA VETTORE DI DATI SE NECESSARIO
                 //genera_vett_esp(data_buffer, (int)SIZE_OF_BUFF(data_buffer), 0, 0);
                 USART3->CR1 |= USART_CR1_TXEIE;
@@ -45,9 +47,9 @@ void usart3_interrupt(){
 
 	if((USART3->ISR & USART_ISR_TXE_TXFNF) && (USART3->CR1 & USART_CR1_TXEIE) && !(USART3->ISR & USART_ISR_RXNE_RXFNE)){
 
-        if(data_index < SIZE_OF_BUFF(data_buffer)*sizeof(data_buffer[0])){
+        if( data_index < 1000 * sizeof(temp_buffer[0])){
 
-            USART3->TDR = data_buffer_8bit[data_index];
+            USART3->TDR = converted_buffer_pointer[data_index];
             ++data_index;
         }else{
             USART3->CR1 ^= USART_CR1_TXEIE_TXFNFIE;

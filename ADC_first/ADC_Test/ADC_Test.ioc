@@ -1,6 +1,7 @@
 #MicroXplorer Configuration settings - do not modify
 ADC3.Channel-0\#ChannelRegularConversion=ADC_CHANNEL_TEMPSENSOR
-ADC3.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,OffsetSignedSaturation-0\#ChannelRegularConversion,NbrOfConversionFlag
+ADC3.ClockPrescalerADC3=ADC_CLOCK_ASYNC_DIV1
+ADC3.IPParameters=Rank-0\#ChannelRegularConversion,Channel-0\#ChannelRegularConversion,SamplingTime-0\#ChannelRegularConversion,OffsetNumber-0\#ChannelRegularConversion,OffsetSignedSaturation-0\#ChannelRegularConversion,NbrOfConversionFlag,ClockPrescalerADC3
 ADC3.NbrOfConversionFlag=1
 ADC3.OffsetNumber-0\#ChannelRegularConversion=ADC_OFFSET_NONE
 ADC3.OffsetSignedSaturation-0\#ChannelRegularConversion=DISABLE

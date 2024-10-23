@@ -13,9 +13,9 @@
 
 
 /* Valori di Riferimento a livello macchina */
-#define TS_CAL_30C *(uint16_t*)(0x1FF1E820)
+#define TS_CAL_30C 	*(uint16_t*)(0x1FF1E820)
 #define TS_CAL_110C *(uint16_t*)(0x1FF1E840)
-#define VREFINT_C *(uint16_t*)(0x1FF1E860);
+#define VREFINT_C 	*(uint16_t*)(0x1FF1E860)
 
 /**
  * @brief

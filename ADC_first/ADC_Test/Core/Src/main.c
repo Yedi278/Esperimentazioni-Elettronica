@@ -97,11 +97,12 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
 
+  init_usart3();		// inizializzo l'usart
+
   ADC_custom_init();	// Inizializzo la periferica
 
   ADC_start();			// Inizializzo il termometro e faccio partire l'ADC
 
-  init_usart3();		// inizializzo l'usart
 
   /* USER CODE END 2 */
 
