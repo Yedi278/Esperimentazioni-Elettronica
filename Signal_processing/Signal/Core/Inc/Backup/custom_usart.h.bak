@@ -11,6 +11,7 @@
 /* INCLUDE */
 
 #include <stdint.h>
+#include <stdbool.h>
 #include "stm32h743xx.h"
 #include "custom_adc.h"
 

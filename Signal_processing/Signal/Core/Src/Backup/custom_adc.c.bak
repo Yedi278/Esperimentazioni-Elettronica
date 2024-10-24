@@ -4,9 +4,12 @@
  *  Created on: Oct 24, 2024
  *      Author: yehan
  */
+
 #include "custom_adc.h"
 
-uint16_t data_buffer[1000] = {1,2,3,4,5,6,7,8,9,0};
+uint16_t data_buffer[1000]={0};
+int data_buffer_write_index = 0;
+bool reading = false;
 
 void adc3_init(){
 
@@ -43,7 +46,7 @@ void adc3_init(){
 
 	/* Impostazioni TIMER per triggerare l'nizio della misura */
 	TIM6->PSC = 48;
-	TIM6->ARR = 1;
+	TIM6->ARR = 10;
 	TIM6->CNT = 0;
 	TIM6->DIER |= TIM_DIER_UIE;
 	TIM6->CR1 |= TIM_CR1_CEN;
@@ -53,6 +56,35 @@ void adc3_init(){
 	ADC3->CR  |= ADC_CR_ADSTART;	// Inizio le misurazioni
 }
 
+
+
+
 void adc3_interrupt(){
 
+	extern int data_buffer_write_index;
+	extern uint16_t data_buffer[1000];
+
+	if((ADC3->ISR & ADC_ISR_EOC) && !reading){
+
+		if(data_buffer_write_index < 1000){
+
+			data_buffer[data_buffer_write_index] = ADC3->DR;
+			++data_buffer_write_index;
+
+		}else{
+			data_buffer[0] = ADC3->DR;
+			data_buffer_write_index=0;
+		}
+	}else{
+		ADC3->ISR |= ADC_ISR_EOC;
+	}
 }
+
+
+
+
+
+
+
+
+

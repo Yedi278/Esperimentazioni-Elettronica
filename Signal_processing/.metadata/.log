@@ -79,3 +79,18 @@ java.lang.Exception: Cannot find bounds of current function
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-10-24 19:58:37.242
 !MESSAGE Existing sessions are:
+!SESSION 2024-10-24 22:39:47.202 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-24 22:40:23.487
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-24 22:40:23.501
+!MESSAGE Log4j2 initialized with config file C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_processing\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-24 22:40:32.778
+!MESSAGE Started RMI Server, listening on port 41337

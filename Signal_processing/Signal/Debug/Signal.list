@@ -656,9 +656,9 @@ void usart3_interrupt(){
  80007aa:	f023 0380 	bic.w	r3, r3, #128	@ 0x80
  80007ae:	6013      	str	r3, [r2, #0]
 
-			if(received_data=='e'){
+			if(received_data=='?'){
  80007b0:	79fb      	ldrb	r3, [r7, #7]
- 80007b2:	2b65      	cmp	r3, #101	@ 0x65
+ 80007b2:	2b3f      	cmp	r3, #63	@ 0x3f
  80007b4:	d10e      	bne.n	80007d4 <usart3_interrupt+0x54>
 				data_buffer_read_index=0;
  80007b6:	4b2b      	ldr	r3, [pc, #172]	@ (8000864 <usart3_interrupt+0xe4>)

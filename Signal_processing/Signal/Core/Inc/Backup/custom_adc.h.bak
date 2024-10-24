@@ -9,8 +9,10 @@
 #define INC_CUSTOM_ADC_H_
 
 /* INCLUDES */
+#include <stdbool.h>
 #include <stdint.h>
 #include "stm32h743xx.h"
+
 
 
 extern uint16_t data_buffer[];

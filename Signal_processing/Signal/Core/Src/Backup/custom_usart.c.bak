@@ -8,7 +8,7 @@
 #include <custom_usart.h>
 
 unsigned char* data_buffer_char = 0;
-int data_index=0;
+int data_buffer_read_index=0;
 
 void usart3_init(){
 
@@ -24,6 +24,7 @@ void usart3_init(){
 void usart3_interrupt(){
 
 	extern uint16_t data_buffer[1000];
+	extern bool reading;
 
 	if(USART3->ISR & USART_ISR_RXNE_RXFNE){
 		if(USART3->ISR & USART_ISR_TXE_TXFNF){
@@ -33,9 +34,8 @@ void usart3_interrupt(){
 			USART3->CR1 &= ~USART_CR1_TXEIE;
 
 			if(received_data=='e'){
-                data_index=0;
-
-				// FUNC() GENERA VETTORE DI DATI SE NECESSARIO
+				data_buffer_read_index=0;
+				reading = true;
                 data_buffer_char = (unsigned char *)data_buffer;
 
                 USART3->CR1 |= USART_CR1_TXEIE;
@@ -45,14 +45,13 @@ void usart3_interrupt(){
 
 	if((USART3->ISR & USART_ISR_TXE_TXFNF) && (USART3->CR1 & USART_CR1_TXEIE) && !(USART3->ISR & USART_ISR_RXNE_RXFNE)){
 
-        if(data_index < sizeof(data_buffer)){
+		if(data_buffer_read_index < sizeof(data_buffer)){
 
-            USART3->TDR = data_buffer_char[data_index];
-//            USART3->TDR = 'C';
-            ++data_index;
-
+            USART3->TDR = data_buffer_char[data_buffer_read_index];
+            ++data_buffer_read_index;
         }else{
             USART3->CR1 &= ~USART_CR1_TXEIE_TXFNFIE;
+            reading = false;
         }
 	}
 

@@ -33,7 +33,7 @@ void usart3_interrupt(){
 
 			USART3->CR1 &= ~USART_CR1_TXEIE;
 
-			if(received_data=='e'){
+			if(received_data=='?'){
 				data_buffer_read_index=0;
 				reading = true;
                 data_buffer_char = (unsigned char *)data_buffer;
