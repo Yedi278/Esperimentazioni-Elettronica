@@ -45,7 +45,7 @@ void usart3_interrupt(){
 
 	if((USART3->ISR & USART_ISR_TXE_TXFNF) && (USART3->CR1 & USART_CR1_TXEIE) && !(USART3->ISR & USART_ISR_RXNE_RXFNE)){
 
-		if(data_buffer_read_index < sizeof(data_buffer)*sizeof(data_buffer[0])){
+		if(data_buffer_read_index < sizeof(data_buffer)){
 
             USART3->TDR = data_buffer_char[data_buffer_read_index];
             ++data_buffer_read_index;

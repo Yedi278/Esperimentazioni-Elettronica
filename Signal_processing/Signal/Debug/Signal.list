@@ -700,10 +700,10 @@ void usart3_interrupt(){
  80007f4:	2b00      	cmp	r3, #0
  80007f6:	d11b      	bne.n	8000830 <usart3_interrupt+0xb0>
 
-		if(data_buffer_read_index < sizeof(data_buffer)*sizeof(data_buffer[0])){
+		if(data_buffer_read_index < sizeof(data_buffer)){
  80007f8:	4b1a      	ldr	r3, [pc, #104]	@ (8000864 <usart3_interrupt+0xe4>)
  80007fa:	681b      	ldr	r3, [r3, #0]
- 80007fc:	f5b3 6f7a 	cmp.w	r3, #4000	@ 0xfa0
+ 80007fc:	f5b3 6ffa 	cmp.w	r3, #2000	@ 0x7d0
  8000800:	d20d      	bcs.n	800081e <usart3_interrupt+0x9e>
 
             USART3->TDR = data_buffer_char[data_buffer_read_index];

@@ -1809,3 +1809,7 @@ java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()"
 2024-10-24 21:47:08,298 [INFO] CADModel:114 - Register for checkConnection events
 2024-10-24 21:47:08,357 [INFO] OpenFileManager:363 - Restore cursor
 2024-10-24 21:47:16,168 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-24 22:13:11,943 [INFO] WebApp:189 - Connection lost
+2024-10-24 22:13:12,178 [INFO] WebApp:186 - Connection restablished
+2024-10-24 22:16:12,913 [INFO] WebApp:189 - Connection lost
+2024-10-24 22:16:13,166 [INFO] WebApp:186 - Connection restablished
