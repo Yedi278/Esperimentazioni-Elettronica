@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Signal/Core/Inc/Custom_usart.h&apos; to &apos;custom_usart.h&apos;" description="Rename resource &apos;Custom_usart.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Custom_usart.h" name="custom_usart.h" stamp="1729786032741" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Signal/Core/Src/Custom_usart.c&apos; to &apos;custom_usart.c&apos;" description="Rename resource &apos;Custom_usart.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/Custom_usart.c" name="custom_usart.c" stamp="1729786050216" updateReferences="true"/>
+</session>

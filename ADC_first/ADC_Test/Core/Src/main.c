@@ -101,12 +101,6 @@ int main(void)
 
   init_usart3();		// inizializzo l'usart
 
-  TIM6->PSC = 48;
-  TIM6->ARR = 10;
-  TIM6->CNT = 0;
-  TIM6->DIER |= TIM_DIER_UIE;
-  TIM6->CR1 |= TIM_CR1_CEN;
-
   ADC_custom_init();	// Inizializzo la periferica
 
   ADC_start();			// Inizializzo il termometro e faccio partire l'ADC

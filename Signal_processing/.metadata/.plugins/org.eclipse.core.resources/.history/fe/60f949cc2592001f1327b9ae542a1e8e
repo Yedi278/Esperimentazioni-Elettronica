@@ -1,0 +1,17 @@
+/*
+ * custom_adc.h
+ *
+ *  Created on: Oct 24, 2024
+ *      Author: yehan
+ */
+
+#ifndef INC_CUSTOM_ADC_H_
+#define INC_CUSTOM_ADC_H_
+
+
+void adc3_init();
+
+void adc3_interrupt();
+
+
+#endif /* INC_CUSTOM_ADC_H_ */

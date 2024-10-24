@@ -66,6 +66,11 @@ void ADC_start(){
 
 //	ADC3_COMMON->CCR |= ADC_CCR_TSEN;			// Abilito il termometro
 //	ADC3_COMMON->CCR |= ADC_CCR_VREFEN;			// Abilito la tensione di riferimento
+	TIM6->PSC = 48;
+	TIM6->ARR = 1;
+	TIM6->CNT = 0;
+	TIM6->DIER |= TIM_DIER_UIE;
+	TIM6->CR1 |= TIM_CR1_CEN;
 
 	ADC3->IER |= ADC_IER_EOCIE;					// Abilito l'interrupt di fine conversione
 	ADC3->CR  |= ADC_CR_ADSTART;				// Inizio le misurazioni
