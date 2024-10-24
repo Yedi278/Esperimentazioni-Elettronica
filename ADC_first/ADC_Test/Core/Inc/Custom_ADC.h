@@ -18,7 +18,7 @@
 #define VREFINT_C 	*(uint16_t*)(0x1FF1E860)
 
 /**
- * @brief
+ *
  */
 void ADC_custom_init();
 
@@ -27,6 +27,7 @@ void ADC_custom_init();
  */
 void ADC_start();
 
+void ADC_convert_buffer();
 
 void ADC_custom_interrupt();
 

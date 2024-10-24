@@ -20,6 +20,7 @@
 #include "main.h"
 #include "adc.h"
 #include "memorymap.h"
+#include "tim.h"
 #include "usart.h"
 #include "usb_otg.h"
 #include "gpio.h"
@@ -94,10 +95,17 @@ int main(void)
   MX_ADC3_Init();
   MX_USART3_UART_Init();
   MX_USB_OTG_FS_PCD_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
 
 
   init_usart3();		// inizializzo l'usart
+
+  TIM6->PSC = 48;
+  TIM6->ARR = 10;
+  TIM6->CNT = 0;
+  TIM6->DIER |= TIM_DIER_UIE;
+  TIM6->CR1 |= TIM_CR1_CEN;
 
   ADC_custom_init();	// Inizializzo la periferica
 

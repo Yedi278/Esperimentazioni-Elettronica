@@ -24,7 +24,7 @@ void init_usart3(){
 
 void usart3_interrupt(){
 
-	extern uint32_t temp_buffer[];
+	extern uint16_t temp_buffer[];
 	extern data_index;
 
 	if(USART3->ISR & USART_ISR_RXNE_RXFNE){
