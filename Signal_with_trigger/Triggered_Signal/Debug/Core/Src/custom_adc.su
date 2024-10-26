@@ -1,0 +1,2 @@
+../Core/Src/custom_adc.c:17:6:adc3_init	4	static
+../Core/Src/custom_adc.c:65:6:adc3_interrupt	4	static

@@ -94,3 +94,25 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-24 22:40:32.778
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-10-25 19:21:09.639 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_with_trigger\Triggered_Signal\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_with_trigger\Triggered_Signal\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-25 19:21:40.221
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-25 19:21:40.230
+!MESSAGE Log4j2 initialized with config file C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_processing\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-25 19:21:48.043
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-10-25 19:21:55.342
+!MESSAGE Indexed 'Triggered_Signal' (28 sources, 126 headers) in 6,5 sec: 18.087 declarations; 123.738 references; 8 unresolved inclusions; 2.126 syntax errors; 3.305 unresolved names (2,3%)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-10-25 19:23:09.599
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39

@@ -1,0 +1,17 @@
+20:15:50 **** Incremental Build of configuration Debug for project Triggered_Signal ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/custom_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/custom_adc.d" -MT"Core/Src/custom_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/custom_adc.o"
+arm-none-eabi-gcc -o "Triggered_Signal.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_with_trigger\Triggered_Signal\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Triggered_Signal.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Triggered_Signal.elf
+ 
+arm-none-eabi-size  Triggered_Signal.elf 
+arm-none-eabi-objdump -h -S Triggered_Signal.elf  > "Triggered_Signal.list"
+   text	   data	    bss	    dec	    hex	filename
+  31652	     16	   3912	  35580	   8afc	Triggered_Signal.elf
+Finished building: default.size.stdout
+ 
+Finished building: Triggered_Signal.list
+ 
+
+20:15:52 Build Finished. 0 errors, 0 warnings. (took 1s.809ms)
+
