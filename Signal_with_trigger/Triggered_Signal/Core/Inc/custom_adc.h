@@ -13,8 +13,8 @@
 #include <stdint.h>
 #include "stm32h743xx.h"
 
-#define PRETRIG_VALUE 100UL
-#define TRIG_VALUE 200UL
+#define PRETRIG_VALUE 1000UL
+#define TRIG_VALUE 2000UL
 
 
 extern uint16_t data_buffer[];

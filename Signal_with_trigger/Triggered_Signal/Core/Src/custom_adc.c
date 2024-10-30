@@ -51,7 +51,7 @@ void adc3_init(){
 	TIM6->PSC = 48;
 	TIM6->ARR = 10;
 	TIM6->CNT = 0;
-	TIM6->DIER |= TIM_DIER_UIE;
+	TIM6->DIER &= ~TIM_DIER_UIE;
 	TIM6->CR1 |= TIM_CR1_CEN;
 	/* Fine sett. TImer */
 
@@ -80,8 +80,7 @@ void adc3_interrupt(){
 				++data_buffer_write_index;
 			}
 			else{
-				if(raw_data > (uint16_t)PRETRIG_VALUE && raw_data < (uint16_t)TRIG_VALUE
-						&& old_raw_data < raw_data){
+				if(raw_data > (uint16_t)PRETRIG_VALUE && raw_data < (uint16_t)TRIG_VALUE && old_raw_data < raw_data){
 
 					triggered = true;
 					data_buffer[data_buffer_write_index] = raw_data;
