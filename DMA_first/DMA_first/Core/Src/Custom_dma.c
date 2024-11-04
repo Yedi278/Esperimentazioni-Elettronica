@@ -7,7 +7,7 @@
 
 #include "Custom_dma.h"
 
-#define DMA_DATA_BUFF_SIZE 100
+#define DMA_DATA_BUFF_SIZE 1000
 
 uint16_t DMA_data_buffer[DMA_DATA_BUFF_SIZE];
 
