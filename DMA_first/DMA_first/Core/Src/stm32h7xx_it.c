@@ -213,6 +213,7 @@ void USART3_IRQHandler(void)
 {
   /* USER CODE BEGIN USART3_IRQn 0 */
 	usart3_custom_interrupt();
+
 	if(0){
   /* USER CODE END USART3_IRQn 0 */
   HAL_UART_IRQHandler(&huart3);
@@ -231,10 +232,11 @@ void DMA2_Stream0_IRQHandler(void)
 	// ATTIVITA DI FINE RICEZIONE DA ADC
 	DMA_custom_interrupt_rx();
 
+	if(0){
   /* USER CODE END DMA2_Stream0_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_adc3);
   /* USER CODE BEGIN DMA2_Stream0_IRQn 1 */
-
+	}
   /* USER CODE END DMA2_Stream0_IRQn 1 */
 }
 
@@ -244,13 +246,13 @@ void DMA2_Stream0_IRQHandler(void)
 void DMA2_Stream1_IRQHandler(void)
 {
   /* USER CODE BEGIN DMA2_Stream1_IRQn 0 */
-
 	DMA_custom_interrupt_tx();
 
+	if(0){
   /* USER CODE END DMA2_Stream1_IRQn 0 */
   HAL_DMA_IRQHandler(&hdma_usart3_tx);
   /* USER CODE BEGIN DMA2_Stream1_IRQn 1 */
-
+	}
   /* USER CODE END DMA2_Stream1_IRQn 1 */
 }
 
@@ -260,9 +262,9 @@ void DMA2_Stream1_IRQHandler(void)
 void ADC3_IRQHandler(void)
 {
   /* USER CODE BEGIN ADC3_IRQn 0 */
-	uint16_t a = ADC3->DR;
+	ADC_custom_interrupt();
 
-	if(1){
+	if(0){
   /* USER CODE END ADC3_IRQn 0 */
   HAL_ADC_IRQHandler(&hadc3);
   /* USER CODE BEGIN ADC3_IRQn 1 */

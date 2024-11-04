@@ -23,15 +23,17 @@ void usart3_init(){
 void usart3_custom_interrupt(){
 
 	char data = USART3->RDR;
+
+
 	if(data == '?'){
 
-		TIM6->CR1 |= TIM_CR1_CEN;
+		USART3->CR3 &= ~USART_CR3_DMAT;	// spengo l'usart
+		TIM6->CR1 |= TIM_CR1_CEN;		// accendo l'adc
+		//USART3->CR1 &= ~USART_CR1_RXNEIE;
 
 	}
 
 	USART3->ICR |= USART_ICR_ORECF; //Cancella l'overrun. Capita quando si entra in debug
 	USART3->ICR |= USART_ICR_TCCF;  //Azzeramento flag interrupt trasmissione
 	USART3->RQR |= USART_RQR_RXFRQ;  //Azzeramento flag interrupt ricezione
-
-	USART3->CR1 &= ~USART_CR1_RXNEIE;
 }

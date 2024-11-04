@@ -6,11 +6,10 @@
  */
 
 #include <stdint.h>
+#include <stdbool.h>
 #include <stm32h743xx.h>
 
 void DMA_custom_init();
-
-void DMA_start();
 
 void DMA_custom_interrupt_tx();
 

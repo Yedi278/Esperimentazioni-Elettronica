@@ -7,6 +7,12 @@
 #include "Custom_ADC.h"
 
 
+volatile uint16_t raw_data;
+bool pre_triggd = false;
+bool triggd = false;
+uint16_t trig_indx=1;
+uint16_t trig_indx_c;
+
 void ADC_custom_init(){
 
 
@@ -19,11 +25,6 @@ void ADC_custom_init(){
 
 	ADC3->PCSEL |= ADC_PCSEL_PCSEL_0; // Dichiaro quali canali leggere : 18 e 19
 
-
-	// Tipicamente gestiti dall'IDE
-//	ADC3->CR &= ~ADC_CR_DEEPPWD;
-//	ADC3->CR |= ADC_CR_ADVREGEN;
-//	while((ADC3->ISR & ADC_ISR_LDORDY) != 1){}
 
 	/* Calibrazione */
 	ADC3->CR &= ~ADC_CR_ADCALDIF;   // Imposto misura single read;
@@ -45,23 +46,44 @@ void ADC_custom_init(){
 
 	/* ADR ACCESO */
 
-	TIM6->PSC = 48;
-	TIM6->ARR = 10;
+	TIM6->PSC = 1;
+	TIM6->ARR = 50;
 	TIM6->CNT = 0;
 	TIM6->DIER &= ~TIM_DIER_UIE;
 
-//	ADC3->CR  |= ADC_CR_ADSTART;
-//	TIM6->CR1 |= TIM_CR1_CEN;
-
-	//ADC3->IER |= ADC_IER_EOCIE;					// Abilito l'interrupt di fine conversione
-	//ADC3->CR  |= ADC_CR_ADSTART;				// Inizio le misurazioni
+	ADC3->IER |= ADC_IER_EOCIE;
 }
 
 
 
 void ADC_custom_interrupt(){
 
+	trig_indx_c = DMA2_Stream0->NDTR;
+	raw_data = ADC3->DR;
 
+	if(triggd && (trig_indx_c == trig_indx)){
+
+		TIM6->CR1 &= ~TIM_CR1_CEN;
+
+		triggd = false;
+
+		USART3->CR3 |= USART_CR3_DMAT;
+		return;
+	}
+
+	if(!triggd && !pre_triggd && (raw_data < PRETRIG_VALUE) ){
+		pre_triggd = true;
+		return;
+	}
+
+	if(pre_triggd && !triggd && (raw_data > TRIG_VALUE)){
+		triggd = true;
+		pre_triggd = false;
+		trig_indx = trig_indx_c;
+		return;
+	}
+
+	ADC3->ISR |= ADC_ISR_EOC;
 }
 
 

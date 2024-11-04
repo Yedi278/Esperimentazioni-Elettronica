@@ -1,4 +1,4 @@
-21:20:56 **** Incremental Build of configuration Debug for project Triggered_Signal ****
+16:28:05 **** Incremental Build of configuration Debug for project Triggered_Signal ****
 make -j22 all 
 arm-none-eabi-size  Triggered_Signal.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  Triggered_Signal.elf
 Finished building: default.size.stdout
  
 
-21:20:56 Build Finished. 0 errors, 0 warnings. (took 321ms)
+16:28:06 Build Finished. 0 errors, 0 warnings. (took 558ms)
 

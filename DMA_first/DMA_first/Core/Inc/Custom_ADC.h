@@ -10,8 +10,10 @@
 
 #include "stm32h743xx.h"
 #include <stdint.h>
+#include <stdbool.h>
 
-
+#define PRETRIG_VALUE	400UL
+#define TRIG_VALUE		2000UL
 
 void ADC_custom_init();
 
