@@ -1,0 +1,4 @@
+../Core/Src/Custom_ADC.c:15:6:ADCx_custom_init	3
+../Core/Src/Custom_ADC.c:50:6:ADC_custom_init	1
+../Core/Src/Custom_ADC.c:77:6:ADC_custom_interrupt_pre	8
+../Core/Src/Custom_ADC.c:119:6:ADC_custom_interrupt	5

@@ -1,0 +1,17 @@
+/*
+ * Led.c
+ *
+ *  Created on: Nov 14, 2024
+ *      Author: yehan
+ */
+
+#include "Led.h"
+
+void toggle_led(){
+
+	GPIOB->BSRR |= GPIO_BSRR_BS0;
+	HAL_Delay(1000);
+	GPIOB->BSRR |= GPIO_BSRR_BR0;
+	HAL_Delay(1000);
+
+}

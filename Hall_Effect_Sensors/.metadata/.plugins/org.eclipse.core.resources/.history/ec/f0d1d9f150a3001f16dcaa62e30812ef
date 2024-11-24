@@ -1,0 +1,66 @@
+/*
+ * HALL.c
+ *
+ *  Created on: Nov 15, 2024
+ *      Author: yehan
+ */
+
+#include "HALL.h"
+
+volatile uint8_t hall_0=0;
+volatile uint8_t hall_1=0;
+volatile uint8_t hall_2=0;
+
+volatile uint8_t usart_hall_index=0;
+
+void USART3_custom_init(){
+
+	hall_0=0;
+	hall_1=0;
+	hall_2=0;
+	usart_hall_index=0
+
+    USART3->CR1 |= USART_CR1_TE;
+    USART3->CR1 |= USART_CR1_RE;
+
+    USART3->CR1 |= USART_CR1_TXEIE;
+    USART3->CR1 &= ~USART_CR1_RXNEIE;
+
+    USART3->CR1 |= USART_CR1_UE;
+}
+
+void USART3_custom_interrupt(){
+
+	switch(usart_hall_index){
+
+	case 0:
+		while(!(USART3->ISR & USART_ISR_TXE_TXFNF));
+		USART3->TDR = hall_0;
+		break;
+
+	}
+
+}
+
+void Hall_0_interr(){
+	++hall_0;
+
+}
+
+
+void Hall_1_interr(){
+	++hall_1;
+
+}
+
+
+void Hall_2_interr(){
+	++hall_2;
+
+}
+
+
+
+
+
+

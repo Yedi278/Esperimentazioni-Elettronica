@@ -1,0 +1,5 @@
+../Core/Src/HALL.c:16:6:USART3_custom_init	4	static
+../Core/Src/HALL.c:32:6:USART3_custom_interrupt	4	static
+../Core/Src/HALL.c:61:6:Hall_0_interr	8	static
+../Core/Src/HALL.c:68:6:Hall_1_interr	8	static
+../Core/Src/HALL.c:75:6:Hall_2_interr	8	static

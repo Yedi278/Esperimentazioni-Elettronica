@@ -1,0 +1,18 @@
+14:21:31 **** Incremental Build of configuration Debug for project Hall_Effect_Sensors ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "Hall_Effect_Sensors.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Hall_Effect_Sensors\Hall_Effect_Sensors\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hall_Effect_Sensors.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Hall_Effect_Sensors.elf
+ 
+arm-none-eabi-size  Hall_Effect_Sensors.elf 
+arm-none-eabi-objdump -h -S Hall_Effect_Sensors.elf  > "Hall_Effect_Sensors.list"
+   text	   data	    bss	    dec	    hex	filename
+  23016	     16	   1800	  24832	   6100	Hall_Effect_Sensors.elf
+Finished building: default.size.stdout
+ 
+Finished building: Hall_Effect_Sensors.list
+ 
+
+14:21:33 Build Finished. 0 errors, 0 warnings. (took 1s.832ms)
+

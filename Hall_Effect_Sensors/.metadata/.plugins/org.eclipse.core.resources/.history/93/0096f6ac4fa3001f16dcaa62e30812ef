@@ -1,0 +1,20 @@
+/*
+ * HALL.h
+ *
+ *  Created on: Nov 15, 2024
+ *      Author: yehan
+ */
+
+#ifndef INC_HALL_H_
+#define INC_HALL_H_
+
+#include "stm32h743xx.h"
+#include <stdint.h>
+
+void USART3_custom_init();
+
+void USART3_custom_interrupt();
+
+void COMP_custom_interrupt();
+
+#endif /* INC_HALL_H_ */

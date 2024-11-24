@@ -1,0 +1,1813 @@
+2024-11-14 00:01:07,799 [INFO] MainUpdater:2873 - connection check result : 10
+2024-11-14 00:01:07,832 [INFO] MainUpdater:2873 - connection check result : 10
+2024-11-14 00:01:08,003 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-11-14 00:01:08,003 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2024-11-14 00:01:08,012 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2622) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:972) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3597) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1940) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:550) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:781) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:265) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:352) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:330) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-11-14 00:01:08,014 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-11-14 00:01:08,014 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-11-14 00:01:08,014 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-11-14 00:01:08,016 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-11-14 00:01:08,020 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-11-14 00:01:08,024 [WARN] MainPanel:284 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-11-14 00:01:08,050 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 680569656 Bytes (1073741824)
+2024-11-14 00:01:08,051 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-11-14 00:01:08,051 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2024-11-14 00:01:08,051 [INFO] OpenFileManager:332 - Change cursor
+2024-11-14 00:01:08,059 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-11-14 00:01:08,061 [INFO] Mcu:2032 - Initializing MCU STM32H743ZITx STM32H743ZITx STM32H743ZIT6
+2024-11-14 00:01:10,752 [INFO] Context:742 - Trying to add GPIOservice into a context  which must be forbidden
+2024-11-14 00:01:11,906 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-11-14 00:01:11,906 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-11-14 00:01:11,906 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-11-14 00:01:11,906 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-11-14 00:01:11,906 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:01:11,913 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2024-11-14 00:01:11,932 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-11-14 00:01:12,139 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-11-14 00:01:12,149 [INFO] HwResourcesManager:1923 - RZone for current mcu STM32H743ZITx : STM32_DIE450_864_2048
+2024-11-14 00:01:12,151 [INFO] HwResourcesManager:288 - provisioning FMC Bank1 added
+2024-11-14 00:01:12,151 [INFO] HwResourcesManager:288 - provisioning FMC Bank3 added
+2024-11-14 00:01:12,151 [INFO] HwResourcesManager:288 - provisioning QuadSPI added
+2024-11-14 00:01:12,151 [INFO] HwResourcesManager:288 - provisioning FMC SDRAM Bank1 added
+2024-11-14 00:01:12,151 [INFO] HwResourcesManager:288 - provisioning FMC SDRAM Bank2 added
+2024-11-14 00:01:12,152 [INFO] HwResourcesManager:472 - Memory Region RAM_ITCM added without MPC
+2024-11-14 00:01:12,153 [INFO] HwResourcesManager:472 - Memory Region Flash Bank1 added without MPC
+2024-11-14 00:01:12,154 [INFO] HwResourcesManager:472 - Memory Region Flash Bank2 added without MPC
+2024-11-14 00:01:12,154 [INFO] HwResourcesManager:472 - Memory Region System Bank1 added without MPC
+2024-11-14 00:01:12,155 [INFO] HwResourcesManager:472 - Memory Region System Bank2 added without MPC
+2024-11-14 00:01:12,155 [INFO] HwResourcesManager:472 - Memory Region RAM_DTCM added without MPC
+2024-11-14 00:01:12,156 [INFO] HwResourcesManager:472 - Memory Region RAM_AXI added without MPC
+2024-11-14 00:01:12,156 [INFO] HwResourcesManager:472 - Memory Region RAM1_AHB added without MPC
+2024-11-14 00:01:12,156 [INFO] HwResourcesManager:472 - Memory Region RAM2_AHB added without MPC
+2024-11-14 00:01:12,157 [INFO] HwResourcesManager:472 - Memory Region RAM3_AHB added without MPC
+2024-11-14 00:01:12,157 [INFO] HwResourcesManager:472 - Memory Region RAM_AHB_D4 added without MPC
+2024-11-14 00:01:12,157 [INFO] HwResourcesManager:472 - Memory Region BKPSRAM added without MPC
+2024-11-14 00:01:12,158 [INFO] MemInfoExtractor$FMCInfoExtractor:862 - Cannot find FMC BANK1 start address in the info provided by HWResourceManager => Set it to the default value
+2024-11-14 00:01:12,158 [INFO] MemInfoExtractor$FMCInfoExtractor:865 - Cannot find FMC SDRAM BANK1 start address in the info provided by HWResourceManager => Set it to the default value
+2024-11-14 00:01:12,158 [INFO] MemInfoExtractor$OctoQuadSPIInfoExtractor:1587 - Cannot find QUADSPI start address in the info provided by HWResourceManager => Set it to the default value
+2024-11-14 00:01:12,163 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,164 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,167 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,170 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,182 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,182 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,185 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SignalID) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Polarity) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (RequestNumber) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncSignalID) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncPolarity) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncEnable) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (EventEnable) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncRequestNumber) has Id (USART3_TX) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SignalID) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Polarity) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (RequestNumber) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncSignalID) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncPolarity) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncEnable) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (EventEnable) has Id (ADC3) currently not set
+2024-11-14 00:01:12,195 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncRequestNumber) has Id (ADC3) currently not set
+2024-11-14 00:01:12,196 [WARN] IP:2191 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2024-11-14 00:01:12,196 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,196 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,196 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,196 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,199 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FDCANFreq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,199 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2024-11-14 00:01:12,200 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI1Freq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,200 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI23Freq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,200 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI4AFreq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,200 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI4BFreq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,200 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SPI123Freq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,200 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (240000000)
+2024-11-14 00:01:12,209 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,210 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,213 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,219 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,221 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,224 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:12,863 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 776511376 Bytes (1073741824)
+2024-11-14 00:01:12,956 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-11-14 00:01:12,957 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.4.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.1.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.6.1
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-11-14 00:01:12,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.17
+2024-11-14 00:01:12,957 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-11-14 00:01:13,253 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-11-14 00:01:13,254 [INFO] PinOutPanel:1561 - setPackage(STM32H743ZITx,LQFP144)
+2024-11-14 00:01:13,359 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,360 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,364 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,407 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:01:13,725 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,729 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,741 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,821 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:01:13,826 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,828 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,833 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:13,873 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:01:13,910 [INFO] UtilMem:75 - Before build in PCC Used Memory: 683191912 Bytes (1073741824)
+2024-11-14 00:01:14,058 [INFO] UtilMem:75 - After build in PCC Used Memory: 742438504 Bytes (1073741824)
+2024-11-14 00:01:14,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,093 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,094 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,096 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,097 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,098 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,099 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,100 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,101 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,102 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,103 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,104 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,105 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,105 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,105 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,105 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,106 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,106 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,106 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,107 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,107 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,107 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,107 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,108 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,108 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,108 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,109 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,109 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,109 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,110 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,110 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,110 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,110 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,111 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,111 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,111 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,112 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,112 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,113 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,113 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,114 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,114 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,114 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,115 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,115 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,116 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,116 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:01:14,119 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-11-14 00:01:14,202 [INFO] CADModel:165 - CPN selected for project levelSTM32H743ZIT6
+2024-11-14 00:01:14,202 [INFO] CADModel:114 - Register for checkConnection events
+2024-11-14 00:01:14,313 [INFO] OpenFileManager:363 - Restore cursor
+2024-11-14 00:01:19,720 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,834 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,835 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:19,961 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,207 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,209 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,210 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:25,360 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,503 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:32,505 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:32,512 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:32,711 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-14 00:01:32,737 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:01:32,797 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,800 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,800 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,801 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:32,924 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:37,189 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 467840344 Bytes (1073741824)
+2024-11-14 00:01:37,466 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 497200472 Bytes (1073741824)
+2024-11-14 00:01:38,283 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 476517664 Bytes (1073741824)
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DAC
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM6_7H7
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: COMP
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: VREFBUF
+2024-11-14 00:01:38,483 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-14 00:01:38,484 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-14 00:01:38,490 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_ADC3
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_ADC3
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:01:38,491 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream1
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream1
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_USART3_TX
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_USART3_TX
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:01:38,522 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:01:38,567 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\license.tmp_save
+2024-11-14 00:01:38,634 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\license.tmp
+2024-11-14 00:01:38,696 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\gpio.tmp_save
+2024-11-14 00:01:38,789 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\gpio.tmp
+2024-11-14 00:01:39,165 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2024-11-14 00:01:39,165 [WARN] IP:2191 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2024-11-14 00:01:39,165 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:39,165 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:39,165 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:39,165 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:01:39,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\cortex.tmp_save
+2024-11-14 00:01:39,531 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\cortex.tmp
+2024-11-14 00:01:39,569 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma.tmp_save
+2024-11-14 00:01:39,660 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma.tmp
+2024-11-14 00:01:39,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma_GV.tmp_save
+2024-11-14 00:01:39,712 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma_GV.tmp
+2024-11-14 00:01:39,735 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_it.c_save
+2024-11-14 00:01:39,885 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_it.c
+2024-11-14 00:01:39,891 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_it.h_save
+2024-11-14 00:01:39,944 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_it.h
+2024-11-14 00:01:40,097 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_hal_msp.c_save
+2024-11-14 00:01:40,176 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_hal_msp.c
+2024-11-14 00:01:40,180 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\system.tmp_save
+2024-11-14 00:01:40,213 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\system.tmp
+2024-11-14 00:01:40,226 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-11-14 00:01:40,294 [INFO] CodeEngine:335 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_hal_conf.h
+2024-11-14 00:01:40,320 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-11-14 00:01:40,320 [WARN] CodeGenerator:4002 - IP not found : null
+2024-11-14 00:01:40,333 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\main.h_save
+2024-11-14 00:01:40,390 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\main.h
+2024-11-14 00:01:40,402 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\main.c_save
+2024-11-14 00:01:40,489 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\main.c
+2024-11-14 00:01:40,703 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 129mS.
+2024-11-14 00:01:40,705 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-14 00:01:40,741 [INFO] ConfigFileManager:1531 - The Die is : DIE450
+2024-11-14 00:01:40,742 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-11-14 00:01:40,744 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-11-14 00:01:40,745 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-11-14 00:01:40,748 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2024-11-14 00:01:40,750 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-11-14 00:01:40,752 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-11-14 00:01:40,754 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-11-14 00:01:41,220 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 515mS.
+2024-11-14 00:01:41,221 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-14 00:01:41,224 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-14 00:01:50,956 [INFO] DmaTabbedPanel:205 - Cannot restore the selected Tab for DMA
+2024-11-14 00:01:56,910 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:56,912 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,081 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,176 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,178 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,178 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,178 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:01:57,271 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:04,155 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:04,157 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:04,165 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:04,171 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:04,323 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-14 00:02:04,349 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:02:04,356 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:04,357 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:04,363 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:08,835 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:08,837 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:08,846 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:08,852 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:08,988 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-14 00:02:09,006 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:02:11,782 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:11,784 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:11,792 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:11,798 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:12,189 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-14 00:02:12,223 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:02:15,406 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 482408800 Bytes (1073741824)
+2024-11-14 00:02:15,581 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 513339744 Bytes (1073741824)
+2024-11-14 00:02:16,262 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 568914272 Bytes (1073741824)
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DAC
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM6_7H7
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: COMP
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: VREFBUF
+2024-11-14 00:02:16,395 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-14 00:02:16,396 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_ADC3
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_ADC3
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:02:16,405 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:02:16,406 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream1
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream1
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_USART3_TX
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_USART3_TX
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:02:16,431 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:02:16,484 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\license.tmp_save
+2024-11-14 00:02:16,556 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\license.tmp
+2024-11-14 00:02:16,608 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\gpio.tmp_save
+2024-11-14 00:02:16,684 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\gpio.tmp
+2024-11-14 00:02:17,004 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2024-11-14 00:02:17,004 [WARN] IP:2191 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2024-11-14 00:02:17,004 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:17,004 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:17,004 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:17,004 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:02:17,258 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\cortex.tmp_save
+2024-11-14 00:02:17,463 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\cortex.tmp
+2024-11-14 00:02:17,514 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma.tmp_save
+2024-11-14 00:02:17,564 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma.tmp
+2024-11-14 00:02:17,567 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma_GV.tmp_save
+2024-11-14 00:02:17,598 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma_GV.tmp
+2024-11-14 00:02:17,619 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_it.c_save
+2024-11-14 00:02:17,700 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_it.c
+2024-11-14 00:02:17,715 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_it.h_save
+2024-11-14 00:02:17,766 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_it.h
+2024-11-14 00:02:17,829 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_hal_msp.c_save
+2024-11-14 00:02:17,910 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_hal_msp.c
+2024-11-14 00:02:17,919 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\system.tmp_save
+2024-11-14 00:02:17,958 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\system.tmp
+2024-11-14 00:02:17,970 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-11-14 00:02:18,033 [INFO] CodeEngine:335 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_hal_conf.h
+2024-11-14 00:02:18,055 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-11-14 00:02:18,056 [WARN] CodeGenerator:4002 - IP not found : null
+2024-11-14 00:02:18,067 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\main.h_save
+2024-11-14 00:02:18,112 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\main.h
+2024-11-14 00:02:18,123 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\main.c_save
+2024-11-14 00:02:18,208 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\main.c
+2024-11-14 00:02:18,438 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 138mS.
+2024-11-14 00:02:18,440 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-14 00:02:18,479 [INFO] ConfigFileManager:1531 - The Die is : DIE450
+2024-11-14 00:02:18,965 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 525mS.
+2024-11-14 00:02:18,965 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-14 00:02:18,967 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2024-11-14 00:02:24,863 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,865 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,865 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,865 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:24,866 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,015 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,016 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,017 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,017 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,017 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,017 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,017 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,017 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,018 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,128 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,129 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,129 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,130 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,222 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,223 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,224 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:25,323 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,077 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,183 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:32,264 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,602 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,603 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,603 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,603 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,604 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,724 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,818 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,819 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:36,963 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:37,905 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,985x414,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-11-14 00:02:39,227 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,229 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,230 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:39,363 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,258 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,261 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,261 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,261 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,261 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,261 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,261 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:02:47,396 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:05:54,449 [INFO] WebApp:189 - Connection lost
+2024-11-14 00:05:54,666 [INFO] WebApp:186 - Connection restablished
+2024-11-14 00:06:35,403 [INFO] WebApp:189 - Connection lost
+2024-11-14 00:06:35,537 [INFO] WebApp:186 - Connection restablished
+2024-11-14 00:09:03,036 [INFO] MainUpdater:2873 - connection check result : 10
+2024-11-14 00:09:03,036 [INFO] MainUpdater:2873 - connection check result : 10
+2024-11-14 00:09:03,183 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-11-14 00:09:03,183 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2024-11-14 00:09:03,188 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2622) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:972) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3597) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1940) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:550) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:781) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:265) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:352) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:330) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-11-14 00:09:03,189 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-11-14 00:09:03,189 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-11-14 00:09:03,189 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-11-14 00:09:03,191 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-11-14 00:09:03,196 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-11-14 00:09:03,200 [WARN] MainPanel:284 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-11-14 00:09:03,235 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 740633720 Bytes (1073741824)
+2024-11-14 00:09:03,236 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-11-14 00:09:03,236 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2024-11-14 00:09:03,236 [INFO] OpenFileManager:332 - Change cursor
+2024-11-14 00:09:03,243 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-11-14 00:09:03,248 [INFO] Mcu:2032 - Initializing MCU STM32H743ZITx STM32H743ZITx STM32H743ZIT6
+2024-11-14 00:09:05,951 [INFO] Context:742 - Trying to add GPIOservice into a context  which must be forbidden
+2024-11-14 00:09:07,070 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-11-14 00:09:07,070 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-11-14 00:09:07,070 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-11-14 00:09:07,070 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-11-14 00:09:07,070 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,073 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-11-14 00:09:07,074 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2024-11-14 00:09:07,086 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-11-14 00:09:07,297 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-11-14 00:09:07,308 [INFO] HwResourcesManager:1923 - RZone for current mcu STM32H743ZITx : STM32_DIE450_864_2048
+2024-11-14 00:09:07,310 [INFO] HwResourcesManager:288 - provisioning FMC Bank1 added
+2024-11-14 00:09:07,310 [INFO] HwResourcesManager:288 - provisioning FMC Bank3 added
+2024-11-14 00:09:07,310 [INFO] HwResourcesManager:288 - provisioning QuadSPI added
+2024-11-14 00:09:07,310 [INFO] HwResourcesManager:288 - provisioning FMC SDRAM Bank1 added
+2024-11-14 00:09:07,310 [INFO] HwResourcesManager:288 - provisioning FMC SDRAM Bank2 added
+2024-11-14 00:09:07,311 [INFO] HwResourcesManager:472 - Memory Region RAM_ITCM added without MPC
+2024-11-14 00:09:07,311 [INFO] HwResourcesManager:472 - Memory Region Flash Bank1 added without MPC
+2024-11-14 00:09:07,312 [INFO] HwResourcesManager:472 - Memory Region Flash Bank2 added without MPC
+2024-11-14 00:09:07,312 [INFO] HwResourcesManager:472 - Memory Region System Bank1 added without MPC
+2024-11-14 00:09:07,312 [INFO] HwResourcesManager:472 - Memory Region System Bank2 added without MPC
+2024-11-14 00:09:07,313 [INFO] HwResourcesManager:472 - Memory Region RAM_DTCM added without MPC
+2024-11-14 00:09:07,313 [INFO] HwResourcesManager:472 - Memory Region RAM_AXI added without MPC
+2024-11-14 00:09:07,314 [INFO] HwResourcesManager:472 - Memory Region RAM1_AHB added without MPC
+2024-11-14 00:09:07,314 [INFO] HwResourcesManager:472 - Memory Region RAM2_AHB added without MPC
+2024-11-14 00:09:07,315 [INFO] HwResourcesManager:472 - Memory Region RAM3_AHB added without MPC
+2024-11-14 00:09:07,316 [INFO] HwResourcesManager:472 - Memory Region RAM_AHB_D4 added without MPC
+2024-11-14 00:09:07,316 [INFO] HwResourcesManager:472 - Memory Region BKPSRAM added without MPC
+2024-11-14 00:09:07,317 [INFO] MemInfoExtractor$FMCInfoExtractor:862 - Cannot find FMC BANK1 start address in the info provided by HWResourceManager => Set it to the default value
+2024-11-14 00:09:07,317 [INFO] MemInfoExtractor$FMCInfoExtractor:865 - Cannot find FMC SDRAM BANK1 start address in the info provided by HWResourceManager => Set it to the default value
+2024-11-14 00:09:07,317 [INFO] MemInfoExtractor$OctoQuadSPIInfoExtractor:1587 - Cannot find QUADSPI start address in the info provided by HWResourceManager => Set it to the default value
+2024-11-14 00:09:07,325 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,327 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,332 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,335 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,351 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,353 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,357 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,368 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,368 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,368 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,368 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,368 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SignalID) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Polarity) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (RequestNumber) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncSignalID) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncPolarity) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncEnable) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (EventEnable) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncRequestNumber) has Id (USART3_TX) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SignalID) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Polarity) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (RequestNumber) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncSignalID) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncPolarity) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncEnable) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (EventEnable) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncRequestNumber) has Id (ADC3) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SignalID) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Polarity) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (RequestNumber) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncSignalID) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncPolarity) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncEnable) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (EventEnable) has Id (ADC2) currently not set
+2024-11-14 00:09:07,369 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncRequestNumber) has Id (ADC2) currently not set
+2024-11-14 00:09:07,370 [WARN] IP:2191 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2024-11-14 00:09:07,370 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,370 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,370 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,370 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,375 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (FDCANFreq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI1Freq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI23Freq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI4AFreq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SAI4BFreq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SPI123Freq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,376 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (240000000)
+2024-11-14 00:09:07,385 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,386 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,389 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,394 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,394 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,399 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:07,932 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 743787720 Bytes (1073741824)
+2024-11-14 00:09:08,040 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-11-14 00:09:08,041 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-11-14 00:09:08,041 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.2
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.1
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.4.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-11-14 00:09:08,042 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.1.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.6.1
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-11-14 00:09:08,043 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.17
+2024-11-14 00:09:08,043 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-11-14 00:09:08,232 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-11-14 00:09:08,232 [INFO] PinOutPanel:1561 - setPackage(STM32H743ZITx,LQFP144)
+2024-11-14 00:09:08,305 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,306 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,313 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,369 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:09:08,575 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,577 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,581 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,617 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:09:08,621 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,622 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,626 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:08,670 [INFO] MemInfoExtractor:277 - EVENT_MCU_SET_IP_PARAMETER
+2024-11-14 00:09:08,707 [INFO] UtilMem:75 - Before build in PCC Used Memory: 796886528 Bytes (1073741824)
+2024-11-14 00:09:08,860 [INFO] UtilMem:75 - After build in PCC Used Memory: 856655360 Bytes (1073741824)
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,890 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,891 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,892 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,893 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,894 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,895 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,896 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,898 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,899 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,900 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,900 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,901 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,902 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,903 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,904 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,904 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,904 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,905 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,905 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,906 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,906 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,907 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,908 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,908 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,909 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,909 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-11-14 00:09:08,911 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-11-14 00:09:08,970 [INFO] CADModel:165 - CPN selected for project levelSTM32H743ZIT6
+2024-11-14 00:09:08,970 [INFO] CADModel:114 - Register for checkConnection events
+2024-11-14 00:09:09,041 [INFO] OpenFileManager:363 - Restore cursor
+2024-11-14 00:09:19,285 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,386 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,387 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:19,474 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:27,991 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:27,993 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:28,001 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:28,007 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:39,111 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:39,113 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:39,120 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:41,938 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:41,941 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:41,947 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:41,951 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:42,693 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:42,695 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:42,700 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:09:44,710 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,711 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,712 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,712 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,836 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,938 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:44,939 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:45,036 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,290 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,378 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,379 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,379 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,379 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,379 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:09:49,450 [INFO] ADCParametersView:116 -                Rank 1 : false
+2024-11-14 00:11:08,908 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,910 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,919 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,925 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,938 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,940 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,947 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:11:08,952 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:12:15,132 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 590723232 Bytes (1073741824)
+2024-11-14 00:12:15,284 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 620605600 Bytes (1073741824)
+2024-11-14 00:12:15,962 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 729135264 Bytes (1073741824)
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DAC
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM6_7H7
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: COMP
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: DMA
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: VREFBUF
+2024-11-14 00:12:16,056 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2024-11-14 00:12:16,057 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream2
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream2
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_ADC2
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_ADC2
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:12:16,061 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream0
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream0
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_ADC3
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_ADC3
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:12:16,064 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Instancevalue: DMA2_Stream1
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Instancevalue: DMA2_Stream1
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Initvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:327 - 	 sub Args: 
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_USART3_TX
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_USART3_TX
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Directionvalue: DMA_MEMORY_TO_PERIPH
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_BYTE
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_BYTE
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_LOW
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Statevalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Statevalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:12:16,088 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-11-14 00:12:16,089 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-11-14 00:12:16,134 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\license.tmp_save
+2024-11-14 00:12:16,194 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\license.tmp
+2024-11-14 00:12:16,259 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\gpio.tmp_save
+2024-11-14 00:12:16,323 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\gpio.tmp
+2024-11-14 00:12:16,618 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2024-11-14 00:12:16,618 [WARN] IP:2191 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2024-11-14 00:12:16,619 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:12:16,619 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:12:16,619 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:12:16,619 [ERROR] HwResourcesManager:1531 - Cannot find MPC for the given IP: FLASH
+2024-11-14 00:12:17,078 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\cortex.tmp_save
+2024-11-14 00:12:17,129 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\cortex.tmp
+2024-11-14 00:12:17,167 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma.tmp_save
+2024-11-14 00:12:17,229 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma.tmp
+2024-11-14 00:12:17,232 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma_GV.tmp_save
+2024-11-14 00:12:17,277 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\dma_GV.tmp
+2024-11-14 00:12:17,301 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_it.c_save
+2024-11-14 00:12:17,412 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_it.c
+2024-11-14 00:12:17,416 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_it.h_save
+2024-11-14 00:12:17,453 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_it.h
+2024-11-14 00:12:17,513 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_hal_msp.c_save
+2024-11-14 00:12:17,606 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\stm32h7xx_hal_msp.c
+2024-11-14 00:12:17,610 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\system.tmp_save
+2024-11-14 00:12:17,652 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\MXTmpFiles\system.tmp
+2024-11-14 00:12:17,668 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-11-14 00:12:17,747 [INFO] CodeEngine:335 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\stm32h7xx_hal_conf.h
+2024-11-14 00:12:17,790 [WARN] IPConfigManager:3554 - IP not found : TIM
+2024-11-14 00:12:17,790 [WARN] CodeGenerator:4002 - IP not found : null
+2024-11-14 00:12:17,806 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\main.h_save
+2024-11-14 00:12:17,873 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Inc\main.h
+2024-11-14 00:12:17,888 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\main.c_save
+2024-11-14 00:12:17,980 [INFO] CodeEngine:279 - Generated code: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Dual_ADC\Dual_ADC\Core\Src\main.c
+2024-11-14 00:12:18,329 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 203mS.
+2024-11-14 00:12:18,331 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2024-11-14 00:12:18,368 [INFO] ConfigFileManager:1531 - The Die is : DIE450
+2024-11-14 00:12:18,369 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2024-11-14 00:12:18,371 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2024-11-14 00:12:18,372 [INFO] ApiDbMcu:508 - Load IP Config File for LIBJPEG
+2024-11-14 00:12:18,374 [INFO] ApiDbMcu:508 - Load IP Config File for LWIP
+2024-11-14 00:12:18,376 [INFO] ApiDbMcu:508 - Load IP Config File for MBEDTLS
+2024-11-14 00:12:18,379 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2024-11-14 00:12:18,380 [INFO] ApiDbMcu:508 - Load IP Config File for USB_HOST
+2024-11-14 00:12:18,770 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 439mS.
+2024-11-14 00:12:18,771 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2024-11-14 00:12:18,772 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.

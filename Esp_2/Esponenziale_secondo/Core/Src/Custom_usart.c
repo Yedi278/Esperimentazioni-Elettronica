@@ -57,5 +57,4 @@ void usart3_interrupt(){
 	USART3->ICR |= USART_ICR_ORECF; //Cancella l'overrun. Capita quando si entra in debug
 	USART3->ICR |= USART_ICR_TCCF;  //Azzeramento flag interrupt trasmissione
 	USART3->RQR |= USART_RQR_RXFRQ;  //Azzeramento flag interrupt ricezione
-
 }

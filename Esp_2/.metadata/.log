@@ -1,46 +1,18 @@
-!SESSION 2024-10-17 09:54:47.622 -----------------------------------------------
+!SESSION 2024-11-14 19:40:51.356 -----------------------------------------------
 eclipse.buildId=Version 1.16.1
 java.version=17.0.11
 java.vendor=Eclipse Adoptium
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
-Framework arguments:  C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\Esp_2\Esp_2\.project
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\Esp_2\Esp_2\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-10-17 09:55:14.350
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-14 19:41:01.575
 !MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
 
-!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-10-17 09:55:14.360
-!MESSAGE Log4j2 initialized with config file C:\Users\yehan\Documents\Uni\Esperimentazioni Elettronica\Esp_2\.metadata\.log4j2.xml
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-14 19:41:01.575
+!MESSAGE Log4j2 initialized with config file C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Esp_2\.metadata\.log4j2.xml
 
-!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-17 09:55:18.512
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-14 19:41:04.294
 !MESSAGE Started RMI Server, listening on port 41337
 
-!ENTRY org.eclipse.cdt.core 1 0 2024-10-17 09:55:27.078
-!MESSAGE Indexed 'Esp_2' (29 sources, 125 headers) in 6.32 sec: 16,631 declarations; 95,766 references; 8 unresolved inclusions; 1,708 syntax errors; 2,818 unresolved names (2.4%)
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 09:58:29.787
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:03:13.293
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:03:35.990
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:06:48.791
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:09:27.660
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:10:57.579
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:20:44.071
-!MESSAGE Won't launch debug session since we failed to locate the binary.
-
-!ENTRY org.eclipse.cdt.core 1 0 2024-10-17 10:24:19.306
-!MESSAGE Indexed 'Esponenziale_secondo' (31 sources, 95 headers) in 2.09 sec: 10,146 declarations; 77,101 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0023%)
-
-!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-10-17 10:25:49.155
-!MESSAGE Won't launch debug session since we failed to locate the binary.
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-14 19:41:32.941
+!MESSAGE Indexed 'Esponenziale_secondo' (33 sources, 136 headers) in 6.36 sec: 17,721 declarations; 106,266 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.14%)

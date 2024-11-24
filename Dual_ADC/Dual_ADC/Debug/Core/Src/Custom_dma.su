@@ -1,0 +1,2 @@
+../Core/Src/Custom_dma.c:16:6:DMA_custom_init	16	static
+../Core/Src/Custom_dma.c:57:6:DMA_custom_interrupt_tx	4	static

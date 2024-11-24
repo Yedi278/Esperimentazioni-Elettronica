@@ -11,7 +11,7 @@ volatile uint16_t raw_data;
 volatile bool pre_triggd = 0;
 volatile bool triggd = 0;
 volatile uint16_t trig_indx=1;
-volatile uint16_t trig_indx_c;
+
 
 void ADC_custom_init(){
 
@@ -49,7 +49,7 @@ void ADC_custom_init(){
 	// TIM6 set to 240Mhz
 
 	TIM6->PSC = 10; // TIM6 CLOCK/PSC
-	TIM6->ARR = 10;	// TIM6 CLOCK/PSC/ARR
+	TIM6->ARR = 15;	// TIM6 CLOCK/PSC/ARR
 	TIM6->CNT = 0;
 	TIM6->DIER &= ~TIM_DIER_UIE;
 
@@ -60,7 +60,7 @@ void ADC_custom_init(){
 
 void ADC_custom_interrupt(){
 
-	if(triggd && (DMA2_Stream0->NDTR == trig_indx)){
+	if(triggd && (DMA2_Stream0->NDTR == trig_indx )){
 
 		TIM6->CR1 &= ~TIM_CR1_CEN;
 
@@ -80,7 +80,7 @@ void ADC_custom_interrupt(){
 	else if(pre_triggd && !triggd && (ADC3->DR > TRIG_VALUE)){
 		triggd = 1;
 		pre_triggd = 0;
-		trig_indx = DMA2_Stream0->NDTR;
+		trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL + 1UL;
 		return;
 	}
 

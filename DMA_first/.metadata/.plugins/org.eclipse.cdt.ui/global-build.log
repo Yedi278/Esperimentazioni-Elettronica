@@ -3010,3 +3010,612 @@ Finished building: default.size.stdout
  
 Finished building: DMA_first.list
  
+09:46:06 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+09:54:25 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34256	     20	   4140	  38416	   9610	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+09:55:58 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+09:59:24 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-size  DMA_first.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+10:05:19 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-size  DMA_first.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+10:24:16 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34256	     20	   4140	  38416	   9610	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:25:13 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34256	     20	   4140	  38416	   9610	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:26:00 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:30:11 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34256	     20	   4140	  38416	   9610	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:30:49 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34256	     20	   4140	  38416	   9610	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:31:24 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:31:29 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-size  DMA_first.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34252	     20	   4140	  38412	   960c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+10:38:23 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:39:37 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:41:29 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34248	     20	   4140	  38408	   9608	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:43:45 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:48:02 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:51:45 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:52:42 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:57:08 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+10:59:12 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+11:13:12 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+11:16:50 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+11:19:03 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34248	     20	   4140	  38408	   9608	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+11:19:30 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34248	     20	   4140	  38408	   9608	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+11:20:43 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+11:48:24 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:37:39 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  34284	     20	   4140	  38444	   962c	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:39:25 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_dma.d" -MT"Core/Src/Custom_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_dma.o"
+arm-none-eabi-gcc "../Core/Src/Custom_usart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_usart.d" -MT"Core/Src/Custom_usart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_usart.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h7xx.d" -MT"Core/Src/system_stm32h7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h7xx.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  20984	     20	   4140	  25144	   6238	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:42:19 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:63:56: error: expected ')' before '{' token
+   63 |         if(triggd && (DMA2_Stream0->NDTR == trig_indx ){
+      |           ~                                            ^
+      |                                                        )
+../Core/Src/Custom_ADC.c:85:9: error: expected expression before '}' token
+   85 |         }
+      |         ^
+In file included from ../Core/Inc/Custom_ADC.h:11,
+                 from ../Core/Src/Custom_ADC.c:7:
+../Core/Src/Custom_ADC.c: At top level:
+../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h743xx.h:2540:31: error: expected identifier or '(' before 'ADC_TypeDef'
+ 2540 | #define ADC3                ((ADC_TypeDef *) ADC3_BASE)
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:87:9: note: in expansion of macro 'ADC3'
+   87 |         ADC3->ISR |= ADC_ISR_EOC;
+      |         ^~~~
+../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h743xx.h:2172:31: error: expected ')' before '(' token
+ 2172 | #define ADC3_BASE             (D3_AHB1PERIPH_BASE + 0x6000UL)
+      |                               ^
+../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h743xx.h:2540:46: note: in expansion of macro 'ADC3_BASE'
+ 2540 | #define ADC3                ((ADC_TypeDef *) ADC3_BASE)
+      |                                              ^~~~~~~~~
+../Core/Src/Custom_ADC.c:87:9: note: in expansion of macro 'ADC3'
+   87 |         ADC3->ISR |= ADC_ISR_EOC;
+      |         ^~~~
+../Core/Src/Custom_ADC.c:88:1: error: expected identifier or '(' before '}' token
+   88 | }
+      | ^
+make: *** [Core/Src/subdir.mk:43: Core/Src/Custom_ADC.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:42:39 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:83:72: error: expected ';' before ')' token
+   83 |                 trig_indx = ((DMA2_Stream0->NDTR + 100UL)%1000UL) + 1UL);
+      |                                                                        ^
+      |                                                                        ;
+../Core/Src/Custom_ADC.c:83:72: error: expected statement before ')' token
+make: *** [Core/Src/subdir.mk:43: Core/Src/Custom_ADC.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:42:49 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:83:64: error: expected ';' before ')' token
+   83 |                 trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL) + 1UL);
+      |                                                                ^
+      |                                                                ;
+../Core/Src/Custom_ADC.c:83:64: error: expected statement before ')' token
+../Core/Src/Custom_ADC.c:83:66: warning: statement with no effect [-Wunused-value]
+   83 |                 trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL) + 1UL);
+      |                                                                  ^
+../Core/Src/Custom_ADC.c:83:71: error: expected ';' before ')' token
+   83 |                 trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL) + 1UL);
+      |                                                                       ^
+      |                                                                       ;
+../Core/Src/Custom_ADC.c:83:71: error: expected statement before ')' token
+make: *** [Core/Src/subdir.mk:43: Core/Src/Custom_ADC.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:42:59 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:83:64: error: expected ';' before ')' token
+   83 |                 trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL) + 1UL;
+      |                                                                ^
+      |                                                                ;
+../Core/Src/Custom_ADC.c:83:64: error: expected statement before ')' token
+../Core/Src/Custom_ADC.c:83:66: warning: statement with no effect [-Wunused-value]
+   83 |                 trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL) + 1UL;
+      |                                                                  ^
+make: *** [Core/Src/subdir.mk:43: Core/Src/Custom_ADC.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:43:12 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  20992	     20	   4140	  25152	   6240	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:44:33 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/stm32h7xx_it.c: In function 'ADC3_IRQHandler':
+../Core/Src/stm32h7xx_it.c:266:12: error: 'triggd' undeclared (first use in this function)
+  266 |         if(triggd && (DMA2_Stream0->NDTR == trig_indx )){
+      |            ^~~~~~
+../Core/Src/stm32h7xx_it.c:266:12: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/stm32h7xx_it.c:266:45: error: 'trig_indx' undeclared (first use in this function)
+  266 |         if(triggd && (DMA2_Stream0->NDTR == trig_indx )){
+      |                                             ^~~~~~~~~
+../Core/Src/stm32h7xx_it.c:271:25: error: 'pre_triggd' undeclared (first use in this function)
+  271 |                         pre_triggd = 0;
+      |                         ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/stm32h7xx_it.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:45:19 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/stm32h7xx_it.c: In function 'ADC3_IRQHandler':
+../Core/Src/stm32h7xx_it.c:266:16: warning: type defaults to 'int' in declaration of 'triggd' [-Wimplicit-int]
+  266 |         extern triggd;
+      |                ^~~~~~
+../Core/Src/stm32h7xx_it.c:267:16: warning: type defaults to 'int' in declaration of 'trig_indx' [-Wimplicit-int]
+  267 |         extern trig_indx;
+      |                ^~~~~~~~~
+../Core/Src/stm32h7xx_it.c:268:16: warning: type defaults to 'int' in declaration of 'pre_triggd' [-Wimplicit-int]
+  268 |         extern pre_triggd;
+      |                ^~~~~~~~~~
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  20960	     20	   4140	  25120	   6220	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:46:57 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c: In function 'ADC_custom_interrupt':
+../Core/Src/Custom_ADC.c:61:12: error: 'triggd' undeclared (first use in this function)
+   61 |         if(triggd && (DMA2_Stream0->NDTR == trig_indx )){
+      |            ^~~~~~
+../Core/Src/Custom_ADC.c:61:12: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c:61:45: error: 'trig_indx' undeclared (first use in this function)
+   61 |         if(triggd && (DMA2_Stream0->NDTR == trig_indx )){
+      |                                             ^~~~~~~~~
+../Core/Src/Custom_ADC.c:66:17: error: 'pre_triggd' undeclared (first use in this function)
+   66 |                 pre_triggd = 0;
+      |                 ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+12:48:03 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  20960	     20	   4140	  25120	   6220	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:48:59 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  20960	     20	   4140	  25120	   6220	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
+12:56:07 **** Incremental Build of configuration Debug for project DMA_first ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "DMA_first.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA_first.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DMA_first.elf
+ 
+arm-none-eabi-size  DMA_first.elf 
+arm-none-eabi-objdump -h -S DMA_first.elf  > "DMA_first.list"
+   text	   data	    bss	    dec	    hex	filename
+  20960	     20	   4140	  25120	   6220	DMA_first.elf
+Finished building: default.size.stdout
+ 
+Finished building: DMA_first.list
+ 
