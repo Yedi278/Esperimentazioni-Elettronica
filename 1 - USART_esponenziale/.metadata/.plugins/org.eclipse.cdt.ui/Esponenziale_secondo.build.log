@@ -1,0 +1,16 @@
+21:21:07 **** Incremental Build of configuration Debug for project Esponenziale_secondo ****
+make -j22 all 
+arm-none-eabi-gcc -o "Esponenziale_secondo.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\1 - USART_esponenziale\Esponenziale_secondo\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Esponenziale_secondo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Esponenziale_secondo.elf
+ 
+arm-none-eabi-size  Esponenziale_secondo.elf 
+arm-none-eabi-objdump -h -S Esponenziale_secondo.elf  > "Esponenziale_secondo.list"
+   text	   data	    bss	    dec	    hex	filename
+  25080	    100	   5308	  30488	   7718	Esponenziale_secondo.elf
+Finished building: default.size.stdout
+ 
+Finished building: Esponenziale_secondo.list
+ 
+
+21:21:08 Build Finished. 0 errors, 0 warnings. (took 1s.46ms)
+

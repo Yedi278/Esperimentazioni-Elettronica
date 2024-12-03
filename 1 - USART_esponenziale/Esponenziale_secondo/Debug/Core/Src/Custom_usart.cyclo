@@ -1,0 +1,2 @@
+../Core/Src/Custom_usart.c:14:6:init_usart3	1
+../Core/Src/Custom_usart.c:25:6:usart3_interrupt	8

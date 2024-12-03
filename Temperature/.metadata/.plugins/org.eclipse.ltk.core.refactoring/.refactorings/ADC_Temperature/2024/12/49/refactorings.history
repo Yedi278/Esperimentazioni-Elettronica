@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;ADC_Temperature/Core/Inc/Custom_ADC&apos; to &apos;Custom_ADC.h&apos;" description="Rename resource &apos;Custom_ADC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/Custom_ADC" name="Custom_ADC.h" stamp="1733172922887" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;ADC_Temperature/Core/Src/Custom_ADC&apos; to &apos;Custom_ADC.c&apos;" description="Rename resource &apos;Custom_ADC&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/Custom_ADC" name="Custom_ADC.c" stamp="1733172927072" updateReferences="true"/>
-</session>

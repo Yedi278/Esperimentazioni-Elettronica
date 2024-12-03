@@ -1,0 +1,51 @@
+/*
+ * Custom_ADC.c
+ *
+ *  Created on: Oct 17, 2024
+ *      Author: yehan
+ */
+#include "Custom_ADC.h"
+
+
+uint16_t temp_buffer[1000] = {0};
+uint32_t temp_converted[1000] = {0};
+int temp_buff_index=0;
+
+
+void ADC_custom_init(){
+
+
+}
+
+
+
+void ADC_custom_interrupt(){
+
+	extern uint16_t temp_buffer[];
+
+//	uint16_t data_raw = ADC3->DR;
+
+	//uint32_t temp = ( ( 80000UL * (uint32_t)(data_raw - TS_CAL_30C) ) / (uint32_t)(TS_CAL_110C - TS_CAL_30C) ) + 30000UL;
+	if(ADC3->ISR & ADC_ISR_EOC){
+		if(temp_buff_index < 1000){
+
+				temp_buffer[temp_buff_index] = ADC3->DR;
+				temp_buff_index++;
+				ADC3->ISR |= ADC_ISR_EOC;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

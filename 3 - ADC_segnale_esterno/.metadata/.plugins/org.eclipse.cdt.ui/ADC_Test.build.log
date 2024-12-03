@@ -1,0 +1,17 @@
+22:51:46 **** Incremental Build of configuration Debug for project ADC_Test ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -mslow-flash-data -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "ADC_Test.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\3 - ADC_segnale_esterno\ADC_Test\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Test.elf
+ 
+arm-none-eabi-size  ADC_Test.elf 
+arm-none-eabi-objdump -h -S ADC_Test.elf  > "ADC_Test.list"
+   text	   data	    bss	    dec	    hex	filename
+  39144	     20	   5156	  44320	   ad20	ADC_Test.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Test.list
+ 
+
+22:51:47 Build Finished. 0 errors, 0 warnings. (took 982ms)
+
