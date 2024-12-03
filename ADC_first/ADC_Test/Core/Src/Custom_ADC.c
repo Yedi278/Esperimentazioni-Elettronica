@@ -14,8 +14,6 @@ int temp_buff_index=0;
 
 void ADC_custom_init(){
 
-
-//	ADC3->CR &= ~ADC_CR_ADSTART;
 	ADC3->SQR1=0; // per azzerare la configurazione dell'ide
 
 	ADC3->SQR1 |= (0 << ADC_SQR1_L_Pos);	// Indico quanti canali leggere
@@ -36,7 +34,6 @@ void ADC_custom_init(){
 	ADC3->CR |= ADC_CR_ADCALLIN;	// Calibrazione Lineare con offset
 	ADC3->CR &= ~ADC_CR_ADEN;		// Occorre ADC spento
 	ADC3->CR |= ADC_CR_ADCAL;		// Inizio calibrazione
-
 
 	while((ADC3->CR & ADC_CR_ADCAL) != 0){};
 	// FIne calibrazione

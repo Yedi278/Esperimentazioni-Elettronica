@@ -1,0 +1,87 @@
+/*
+ * Custom_ADC.c
+ *
+ *  Created on: Dec 2, 2024
+ *      Author: yehan
+ */
+
+#include "Custom_ADC.h"
+
+uint16_t data_buffer[BUFFER_SIZE];
+
+void adc_custom_init(){
+
+	ADCx->CR &= ~ADC_CR_ADSTART;
+
+	ADCx->SQR1 = 0; // per azzerare la configurazione dell'ide
+
+	ADCx->SQR1 |= (0 << ADC_SQR1_L_Pos);	// Indico quanti canali leggere 0=1
+
+	ADCx->SQR1 |= (18 << ADC_SQR1_SQ1_Pos);
+
+	ADCx->PCSEL = 0;
+	ADCx->PCSEL |= (1 << (ADC_PCSEL_PCSEL_Pos + 18)); // Dichiaro quali canali leggere : 18 e 19
+
+	/* Calibrazione */
+	ADCx->CR &= ~ADC_CR_ADCALDIF;   // Imposto misura single read;
+	ADCx->CR |= ADC_CR_ADCALLIN;	// Calibrazione Lineare con offset
+	ADCx->CR &= ~ADC_CR_ADEN;		// Occorre ADC spento
+	ADCx->CR |= ADC_CR_ADCAL;		// Inizio calibrazione
+
+
+	while((ADCx->CR & ADC_CR_ADCAL) != 0){}
+	// FIne calibrazione
+
+	ADCx->ISR |= ADC_ISR_ADRDY;		// Azzero il bit prima del controllo
+	ADCx->CR |= ADC_CR_ADEN;		// Accendo l' ADC
+
+	while((ADCx->ISR & ADC_ISR_ADRDY) != 0){}
+
+	ADCx->ISR |= ADC_ISR_ADRDY;		// Azzero il Ready bit
+	// Fine accensione
+
+	/* ADR INIZIALIZZATO */
+
+	ADC3->SMPR2 |= (7 << ADC_SMPR2_SMP18_Pos);	// Indico Il tempo prima della misura
+//	ADC3->SMPR2 |= (7 << ADC_SMPR2_SMP19_Pos);
+
+	TIM6->PSC = 48;
+	TIM6->ARR = 10000;
+	TIM6->CNT = 0;
+	TIM6->DIER |= TIM_DIER_UIE;
+	TIM6->CR1 |= TIM_CR1_CEN;
+
+	ADC3->IER |= ADC_IER_EOCIE;					// Abilito l'interrupt di fine conversione
+	ADC3->CR  |= ADC_CR_ADSTART;				// Inizio le misurazioni
+}
+
+
+void adc_custom_interr(){
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

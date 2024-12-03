@@ -1,0 +1,2 @@
+../Core/Src/Custom_USART.c:12:6:usart_custom_init	4	static
+../Core/Src/Custom_USART.c:23:6:usart_custom_interr	16	static

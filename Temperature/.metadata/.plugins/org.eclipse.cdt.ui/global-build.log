@@ -1,0 +1,682 @@
+22:49:19 **** Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_hsem.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_mdma.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.d" -MT"Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32h743zitx.d" -MT"Core/Startup/startup_stm32h743zitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32h743zitx.o" "../Core/Startup/startup_stm32h743zitx.s"
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_hal_msp.d" -MT"Core/Src/stm32h7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32h7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32h7xx.d" -MT"Core/Src/system_stm32h7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32h7xx.o"
+In file included from ../Core/Src/Custom_ADC.c:8:
+../Core/Inc/Custom_ADC.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:10:10: error: variably modified 'data_buffer' at file scope
+   10 | uint16_t data_buffer[BUFFER_SIZE];
+      |          ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+In file included from ../Core/Src/Custom_USART.c:8:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/Custom_ADC.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:25:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+In file included from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Src/stm32h7xx_it.c:26:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32h7xx_it.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:50:00 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+In file included from ../Core/Src/Custom_ADC.c:8:
+../Core/Inc/Custom_ADC.h:14:26: error: expected ']' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Inc/Custom_ADC.h:15:29: note: in expansion of macro 'BUFFER_SIZE'
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                             ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:26: error: expected ']' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Src/Custom_ADC.c:10:22: note: in expansion of macro 'BUFFER_SIZE'
+   10 | uint16_t data_buffer[BUFFER_SIZE];
+      |                      ^~~~~~~~~~~
+In file included from ../Core/Src/Custom_USART.c:8:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:11:31: error: 'data_buffer' undeclared here (not in a function)
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Inc/Custom_ADC.h:14:26: error: expected ')' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Src/Custom_ADC.c:63:32: note: in expansion of macro 'BUFFER_SIZE'
+   63 |         if(data_buffer_index < BUFFER_SIZE){
+      |                                ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c:63:11: note: to match this '('
+   63 |         if(data_buffer_index < BUFFER_SIZE){
+      |           ^
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/Custom_ADC.h:14:26: error: expected ']' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Inc/Custom_ADC.h:15:29: note: in expansion of macro 'BUFFER_SIZE'
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                             ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL;
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:26: error: expected ']' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Inc/Custom_USART.h:15:29: note: in expansion of macro 'BUFFER_SIZE'
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                             ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+In file included from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:14:26: error: expected ']' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Inc/Custom_ADC.h:15:29: note: in expansion of macro 'BUFFER_SIZE'
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                             ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL;
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+../Core/Inc/Custom_ADC.h:14:26: error: expected ']' before ';' token
+   14 | #define BUFFER_SIZE 100UL;
+      |                          ^
+../Core/Inc/Custom_USART.h:15:29: note: in expansion of macro 'BUFFER_SIZE'
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                             ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32h7xx_it.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:50:08 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+In file included from ../Core/Src/Custom_USART.c:8:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+In file included from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32h7xx_it.o] Error 1
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:50:34 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+In file included from ../Core/Src/Custom_USART.c:8:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32h7xx_it.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:50:58 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+In file included from ../Core/Src/Custom_USART.c:8:
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+In file included from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:17: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern uint16_t BUFFER_SIZE;
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32h7xx_it.o] Error 1
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:51:28 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+In file included from ../Core/Src/Custom_USART.c:8:
+../Core/Inc/Custom_USART.h:14:8: warning: type defaults to 'int' in declaration of 'BUFFER_SIZE' [-Wimplicit-int]
+   14 | extern BUFFER_SIZE;
+      |        ^~~~~~~~~~~
+../Core/Inc/Custom_USART.h:15:17: error: variably modified 'data_buffer' at file scope
+   15 | extern uint16_t data_buffer[BUFFER_SIZE];
+      |                 ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:8: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern BUFFER_SIZE;
+      |        ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/main.o] Error 1
+In file included from ../Core/Src/stm32h7xx_it.c:25:
+../Core/Inc/Custom_ADC.h:14:21: error: expected identifier or '(' before numeric constant
+   14 | #define BUFFER_SIZE 100UL
+      |                     ^~~~~
+../Core/Inc/Custom_USART.h:14:8: note: in expansion of macro 'BUFFER_SIZE'
+   14 | extern BUFFER_SIZE;
+      |        ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:40: Core/Src/stm32h7xx_it.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:52:14 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:16:9: error: 'ADCx' undeclared (first use in this function); did you mean 'ADC1'?
+   16 |         ADCx->CR &= ~ADC_CR_ADSTART;
+      |         ^~~~
+      |         ADC1
+../Core/Src/Custom_ADC.c:16:9: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/Custom_ADC.c: In function 'adc_custom_interr':
+../Core/Src/Custom_ADC.c:71:9: error: expected identifier before '}' token
+   71 |         }
+      |         ^
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:55:08 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_ADC.c: In function 'adc_custom_init':
+../Core/Src/Custom_ADC.c:42:9: error: 'ADC3S' undeclared (first use in this function); did you mean 'ADC3'?
+   42 |         ADC3S->ISR |= ADC_ISR_ADRDY;            // Azzero il Ready bit
+      |         ^~~~~
+      |         ADC3
+../Core/Src/Custom_ADC.c:42:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_ADC.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+22:55:28 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+../Core/Src/Custom_USART.c: In function 'usart_custom_interr':
+../Core/Src/Custom_USART.c:32:33: error: 'data_buffer_index' undeclared (first use in this function); did you mean 'data_buffer_char_p'?
+   32 |                                 data_buffer_index=0;    // resetto l'indeice dell'array
+      |                                 ^~~~~~~~~~~~~~~~~
+      |                                 data_buffer_char_p
+../Core/Src/Custom_USART.c:32:33: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:40: Core/Src/Custom_USART.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j22 all" terminated with exit code 2. Build might be incomplete.
+23:26:35 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  45300	     16	   2096	  47412	   b934	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+23:34:24 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  45312	     16	   2096	  47424	   b940	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+23:35:16 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-size  ADC_Temperature.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45312	     16	   2096	  47424	   b940	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+23:35:58 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40628	     20	   2100	  42748	   a6fc	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+23:45:03 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40748	     20	   2100	  42868	   a774	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:02:58 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40748	     20	   2100	  42868	   a774	ADC_Temperature.elf
+Finished building: default.size.stdout
+Finished building: ADC_Temperature.list
+ 
+ 
+00:05:12 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40748	     20	   2100	  42868	   a774	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:07:08 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40752	     20	   2100	  42872	   a778	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:13:02 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_USART.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_USART.d" -MT"Core/Src/Custom_USART.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_USART.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40752	     20	   2100	  42872	   a778	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:14:02 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40752	     20	   2100	  42872	   a778	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:14:32 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-size  ADC_Temperature.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40752	     20	   2100	  42872	   a778	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+00:19:28 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40764	     20	   2100	  42884	   a784	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:20:15 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-size  ADC_Temperature.elf 
+   text	   data	    bss	    dec	    hex	filename
+  40764	     20	   2100	  42884	   a784	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+00:21:39 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40764	     20	   2100	  42884	   a784	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:24:10 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40764	     20	   2100	  42884	   a784	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
+00:24:45 **** Incremental Build of configuration Debug for project ADC_Temperature ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+../Core/Src/Custom_ADC.c:11:31: warning: initialization of 'uint8_t *' {aka 'unsigned char *'} from incompatible pointer type 'uint16_t *' {aka 'short unsigned int *'} [-Wincompatible-pointer-types]
+   11 | uint8_t *data_buffer_char_p = data_buffer;
+      |                               ^~~~~~~~~~~
+arm-none-eabi-gcc -o "ADC_Temperature.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Temperature\ADC_Temperature\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ADC_Temperature.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: ADC_Temperature.elf
+ 
+arm-none-eabi-size  ADC_Temperature.elf 
+arm-none-eabi-objdump -h -S ADC_Temperature.elf  > "ADC_Temperature.list"
+   text	   data	    bss	    dec	    hex	filename
+  40764	     20	   2100	  42884	   a784	ADC_Temperature.elf
+Finished building: default.size.stdout
+ 
+Finished building: ADC_Temperature.list
+ 
