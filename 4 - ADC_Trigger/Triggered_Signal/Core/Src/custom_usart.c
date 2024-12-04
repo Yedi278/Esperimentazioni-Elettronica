@@ -7,8 +7,8 @@
 
 #include <custom_usart.h>
 
-unsigned char* data_buffer_char = 0;
-int data_buffer_read_index=0;
+unsigned char* buffer_char;
+uint16_t buffer_read_idx=0;
 
 void usart3_init(){
 
@@ -23,9 +23,6 @@ void usart3_init(){
 
 void usart3_interrupt(){
 
-	extern uint16_t data_buffer[1000];
-	extern bool reading;
-
 	if(USART3->ISR & USART_ISR_RXNE_RXFNE){
 		if(USART3->ISR & USART_ISR_TXE_TXFNF){
 
@@ -33,10 +30,10 @@ void usart3_interrupt(){
 
 			USART3->CR1 &= ~USART_CR1_TXEIE;
 
-			if(received_data=='?'){
-				data_buffer_read_index=0;
-				reading = true;
-                data_buffer_char = (unsigned char *)data_buffer;
+			if(received_data=='e'){
+
+				buffer_read_idx=0;
+                buffer_char = (unsigned char *)data;
 
                 USART3->CR1 |= USART_CR1_TXEIE;
 			}
@@ -45,13 +42,14 @@ void usart3_interrupt(){
 
 	if((USART3->ISR & USART_ISR_TXE_TXFNF) && (USART3->CR1 & USART_CR1_TXEIE) && !(USART3->ISR & USART_ISR_RXNE_RXFNE)){
 
-		if(data_buffer_read_index < sizeof(data_buffer)){
+		if(buffer_read_idx < 1000 * sizeof(data[0])){
 
-            USART3->TDR = data_buffer_char[data_buffer_read_index];
-            ++data_buffer_read_index;
+            USART3->TDR = buffer_char[buffer_read_idx];
+            ++buffer_read_idx;
+
         }else{
+        	TIM6->CR1 |= TIM_CR1_CEN;
             USART3->CR1 &= ~USART_CR1_TXEIE_TXFNFIE;
-            reading = false;
         }
 	}
 

@@ -11,6 +11,10 @@ uint16_t data[1000]={0};
 uint16_t data_index = 0;
 uint16_t raw_data;
 
+bool triggd=false;
+bool pretriggd=false;
+
+
 void adc3_init(){
 
 	ADC3->SQR1=0; // Resetto il registro per cancellare modifice dell'IDE
@@ -20,11 +24,6 @@ void adc3_init(){
 	ADC3->SQR1 |= (0 << ADC_SQR1_SQ1_Pos);	// Inidco i canali da accendere
 
 	ADC3->PCSEL |= ADC_PCSEL_PCSEL_0;		// Selezioni i canali da leggere
-
-	// Tipicamente gestiti dall'IDE
-	//	ADC3->CR &= ~ADC_CR_DEEPPWD;
-	//	ADC3->CR |= ADC_CR_ADVREGEN;
-	//	while((ADC3->ISR & ADC_ISR_LDORDY) != 1){}
 
 	/* Fase di calibrazione */
 	ADC3->CR &= ~ADC_CR_ADCALDIF;   // Imposto misura single read;
@@ -45,8 +44,8 @@ void adc3_init(){
 	/* Fine istruzioni per l'accensione */
 
 	/* Impostazioni TIMER per triggerare l'nizio della misura */
-	TIM6->PSC = 48;
-	TIM6->ARR = 10;
+	TIM6->PSC = 12;	// 240/12 = 20Mhz
+	TIM6->ARR = 15;	// 20Mhz / 10 = 2Mhz
 	TIM6->CNT = 0;
 	TIM6->DIER &= ~TIM_DIER_UIE;
 	TIM6->CR1 |= TIM_CR1_CEN;
@@ -59,41 +58,42 @@ void adc3_init(){
 
 void adc3_interrupt(){
 
-	raw_data = ADC3->DR;
+	raw_data = ADC3->DR;	// leggo il dato dall'ADC
 
-	if(!triggd){
+	if(triggd){				// controllo se nello stato triggerato
 
-		if(raw_data < PRETRIG_VALUE){
+		if(data_index < 1000UL){	// verifico di non essere oltre grandezza buffer
 
-			pretriggd = true;
+			data[data_index] = ADC3->DR;
+			++data_index;
 			return;
 		}
-		else{
+		else{						// finisco la presa dati
 
-			if(raw_data > TRIG_VALUE){
-
-				pretriggd = false;
-				triggd = true;
-				data_index = 0;
-				return;
-			}
+			TIM6->CR1 &= ~TIM_CR1_CEN;
+			triggd = false;
+			data_index = 0;
+			USART3->CR1 |= USART_CR1_TCIE;
 			return;
 		}
 	}
 	else{
 
-		if(data_index < 1000UL){
+		if(!pretriggd){				// verifico condizioni pretrigger
+			if(raw_data < PRETRIG_VALUE){
+				pretriggd = true;
+				return;
+			}
+			return;
+		}
 
-			data[data_index] = ADC3->DR;
-			++data_index;
+		if(raw_data > TRIG_VALUE){	// verifico condizioni di trigger
+			triggd = true;
+			pretriggd = false;
+			return;
 		}
-		else{
-			TIM6->CR1 &= ~TIM_CR1_CEN;
-			USART3->CR1 |= USART_CR1_TCIE;
-		}
+		return;
 	}
-
-
 }
 
 

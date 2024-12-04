@@ -60,8 +60,8 @@ all: main-build
 main-build: Triggered_Signal.elf secondary-outputs
 
 # Tool invocations
-Triggered_Signal.elf Triggered_Signal.map: $(OBJS) $(USER_OBJS) C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_with_trigger\Triggered_Signal\STM32H743ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Triggered_Signal.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\Signal_with_trigger\Triggered_Signal\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Triggered_Signal.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Triggered_Signal.elf Triggered_Signal.map: $(OBJS) $(USER_OBJS) C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\4\ -\ ADC_Trigger\Triggered_Signal\STM32H743ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Triggered_Signal.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\4 - ADC_Trigger\Triggered_Signal\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Triggered_Signal.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
