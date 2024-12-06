@@ -1,0 +1,12 @@
+/*
+ * Custom_ADC.c
+ *
+ *  Created on: Dec 6, 2024
+ *      Author: yehan
+ */
+
+#include "Custom_ADC.h"
+
+void ADC_custom_init();
+
+void ADC_custom_interrupt();

@@ -520,3 +520,28 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-07 09:50:15.970
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-12-06 14:02:49.532 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Framework arguments:  C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\DMA_first\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-06 14:03:04.931
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-06 14:03:04.944
+!MESSAGE Log4j2 initialized with config file C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\DMA_first\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-06 14:03:10.461
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-06 14:03:16.845
+!MESSAGE Indexed 'DMA_first' (31 sources, 131 headers) in 6.02 sec: 17,996 declarations; 129,748 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-06 14:21:48.425
+!MESSAGE Indexed 'DMA' (28 sources, 126 headers) in 5.67 sec: 18,101 declarations; 123,904 references; 8 unresolved inclusions; 2,126 syntax errors; 3,322 unresolved names (2.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-06 14:22:41.602
+!MESSAGE Indexed 'DMA' (28 sources, 126 headers) in 1.9 sec: 17,968 declarations; 129,134 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.12%)

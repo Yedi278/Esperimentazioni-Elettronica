@@ -1,0 +1,24 @@
+/*
+ * Custom_USART.h
+ *
+ *  Created on: Dec 6, 2024
+ *      Author: yehan
+ */
+
+#ifndef INC_CUSTOM_USART_H_
+#define INC_CUSTOM_USART_H_
+
+#include "stm32h743xx.h"
+#include <stdint.h>
+
+
+#define SIZE_OF_BUFF(x) sizeof(x)/sizeof(x[0])
+
+/* FUNCTIONS */
+
+void usart3_init();
+
+void usart3_custom_interrupt();
+
+
+#endif /* INC_CUSTOM_USART_H_ */
