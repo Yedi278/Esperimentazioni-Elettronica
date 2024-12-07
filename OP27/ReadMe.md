@@ -1,0 +1,1 @@
+# Amplificatore 1
