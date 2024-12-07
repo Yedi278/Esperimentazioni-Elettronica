@@ -12,12 +12,12 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define PRETRIG_VALUE	400UL
-#define TRIG_VALUE		2000UL
+#define PRETRIG_VALUE	1100UL
+#define TRIG_VALUE		1200UL
 
-bool triggd;
-bool pre_triggd;
-uint16_t trig_indx;
+extern bool triggd;
+extern bool pre_triggd;
+extern uint16_t trig_indx;
 
 void ADC_custom_init();
 

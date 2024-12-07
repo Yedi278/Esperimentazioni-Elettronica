@@ -6,6 +6,7 @@
  */
 
 #include "Custom_DMA.h"
+#include "Custom_ADC.h"
 
 #define DMA_DATA_BUFF_SIZE 1000
 
@@ -33,53 +34,23 @@ void DMA_custom_init(){
 	DMA1_Stream1->CR |= DMA_SxCR_EN;
 
 	ADC3->CR  |= ADC_CR_ADSTART;
-
-	//TIM6->CR1 |= TIM_CR1_CEN;	LO ACCENDO NELL'USART3 INTERR
 }
 
 
 void DMA_custom_interrupt_tx(){
-
-	extern uint16_t trig_indx;
 
 	USART3->CR3 &= ~USART_CR3_DMAT;			  // SPENGO trasmissione usart
 
 	DMA1->LIFCR = 0xffffffff;	// azzero i flag di interrupt per evitare che ci entri mentre avviene l'interrupt
 	DMA1->HIFCR = 0xffffffff;
 
-	//ADC3->CFGR |= (1 << ADC_CFGR_DMNGT_Pos); // ACCENDO la ricezione di dati dall'adc
-
 	DMA1_Stream0->CR |= DMA_SxCR_EN;
 	DMA1_Stream1->CR |= DMA_SxCR_EN;
 
+	// invio come ultimo elemento l'indice di trigger
 	while(!(USART3->ISR & USART_ISR_TXE_TXFNF));
 	USART3->TDR = (unsigned char)(trig_indx & 0xFF );
 	while(!(USART3->ISR & USART_ISR_TXE_TXFNF));
 	USART3->TDR = *((unsigned char*)&trig_indx + 1);
 	while(!(USART3->ISR & USART_ISR_TXE_TXFNF));
-
-//	ADC3->CR |= ADC_CR_ADSTART;
-	//TIM6->CR1 |= TIM_CR1_CEN;
-
-//	USART3->CR3 |= USART_CR3_DMAT;
-}
-
-
-/**
- * @brief interrupt di ricezione di n dati dall'adc
- */
-void DMA_custom_interrupt_rx(){
-
-//	ADC3->CR &= ~ADC_CR_ADSTART;
-//
-//	ADC3->CFGR &= ~(1 << ADC_CFGR_DMNGT_Pos); // SPENGO la ricezione di dati dall'adc
-//
-//
-//	DMA2->LIFCR = 0xffffffff;	// azzero i flag di interrupt per evitare che ci entri mentre avviene l'interrupt
-//	DMA2->HIFCR = 0xffffffff;
-//
-//	USART3->CR3 |= USART_CR3_DMAT;			  // ATTVIO trasmissione usart
-//
-//	DMA2_Stream0->CR |= DMA_SxCR_EN;
-//	DMA2_Stream1->CR |= DMA_SxCR_EN;
 }

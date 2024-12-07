@@ -7,6 +7,10 @@
 
 #include "Custom_ADC.h"
 
+bool triggd = false;
+bool pre_triggd = false;
+uint16_t trig_indx = 0;
+
 void ADC_custom_init(){
 
 	ADC3->SQR1=0; // Resetto il registro per cancellare modifice dell'IDE
@@ -37,7 +41,7 @@ void ADC_custom_init(){
 
 	/* Impostazioni TIMER per triggerare l'nizio della misura */
 	TIM6->PSC = 12;	// 240/12 = 20Mhz
-	TIM6->ARR = 15;	// 20Mhz / 10 = 2Mhz
+	TIM6->ARR = 20;	// 20Mhz / 10 = 2Mhz
 	TIM6->CNT = 0;
 	TIM6->DIER &= ~TIM_DIER_UIE;
 	TIM6->CR1 &= ~TIM_CR1_CEN;
@@ -49,14 +53,13 @@ void ADC_custom_init(){
 
 void ADC_custom_interrupt(){
 
-	if(triggd && (DMA1_Stream0->NDTR == trig_indx )){
+	if(triggd && (DMA1_Stream0->NDTR == trig_indx)){
 
 		TIM6->CR1 &= ~TIM_CR1_CEN;
 
 		triggd = 0;
 		pre_triggd = 0;
 
-		DMA1_Stream0->CR &= ~DMA_SxCR_EN;
 		USART3->CR3 |= USART_CR3_DMAT;
 		return;
 	}
@@ -69,13 +72,12 @@ void ADC_custom_interrupt(){
 	else if(pre_triggd && !triggd && (ADC3->DR > TRIG_VALUE)){
 		triggd = 1;
 		pre_triggd = 0;
-		trig_indx = DMA1_Stream0->NDTR;
-//		trig_indx = (DMA2_Stream0->NDTR + 100UL)%1000UL + 1UL;
+//		trig_indx = DMA1_Stream0->NDTR;
+		trig_indx = (DMA1_Stream0->NDTR + 10UL)%1000UL + 1UL;	// conservo 100 dati prima del trigger
 		return;
 	}
 
 	ADC3->ISR |= ADC_ISR_EOC;
-
 }
 
 

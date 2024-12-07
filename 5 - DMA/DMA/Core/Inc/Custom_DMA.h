@@ -18,7 +18,4 @@ void DMA_custom_init();
 
 void DMA_custom_interrupt_tx();
 
-void DMA_custom_interrupt_rx();
-
-
 #endif /* INC_CUSTOM_DMA_H_ */

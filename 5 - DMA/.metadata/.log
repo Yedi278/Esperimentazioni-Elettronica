@@ -16,3 +16,27 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-12-06 14:24:00.077
 !MESSAGE Indexed 'DMA' (28 sources, 126 headers) in 4.82 sec: 17,968 declarations; 129,134 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.12%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:43:19.011
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 12 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:43:19.022
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:43:19.023
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 12 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:43:19.024
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:54:12.255
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 20 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:54:12.256
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:54:12.257
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 20 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:54:12.258
+!MESSAGE Existing sessions are:

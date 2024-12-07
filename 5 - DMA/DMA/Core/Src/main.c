@@ -106,7 +106,8 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   ADC_custom_init();
-
+  USART_init();
+  DMA_custom_init();
 
   /* USER CODE END 2 */
 
