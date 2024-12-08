@@ -40,3 +40,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-12-06 16:54:12.258
 !MESSAGE Existing sessions are:
+!SESSION 2024-12-07 18:48:48.419 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=it_IT
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-07 18:49:33.019
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-07 18:49:33.028
+!MESSAGE Log4j2 initialized with config file C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\5 - DMA\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-07 18:49:41.718
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-08 17:06:22.908
+!MESSAGE Indexed 'GPIO_EXTI' (28 sources, 126 headers) in 8.02 sec: 17,968 declarations; 129,132 references; 3 unresolved inclusions; 46 syntax errors; 171 unresolved names (0.12%)
