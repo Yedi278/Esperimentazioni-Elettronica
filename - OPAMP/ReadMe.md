@@ -1,8 +1,9 @@
-<h4> Amplificatore 1
+# **Caratterizzazione Amplificatori Operazionali**
 
-Qui sono contenute tutte le prese dati per il primo amplificatore in stadio Invertente e Non Invertente
+Qui sono contenute tutte le prese dati per la caratterizzazione degli amplificatori.
+Gli amplificatori testati sono OP27 e AD848.
 
-<p1> Link Utili:
+### Link Utili:
 
 * [datasheet OP27](https://www.alldatasheet.com/datasheet-pdf/download/48504/AD/OP27.html)
 
