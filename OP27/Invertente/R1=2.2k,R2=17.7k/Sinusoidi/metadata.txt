@@ -1,0 +1,2 @@
+lf = 1khz
+hf = 1.15Mhz

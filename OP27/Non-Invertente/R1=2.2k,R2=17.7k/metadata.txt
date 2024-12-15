@@ -1,0 +1,3 @@
+lf = 1kHz
+hf = 1.16Mhz
+
