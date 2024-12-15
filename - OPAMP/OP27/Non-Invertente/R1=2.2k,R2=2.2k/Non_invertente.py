@@ -29,7 +29,7 @@ plt.figure(figsize=(6,4))
 plt.plot(t_sin_2k2_lf, sin_2k2_lf[1]  * 1e3)
 plt.plot(t_sin_2k2_hf, sin_2k2_hf[1] * 1e3)
 
-plt.title("Onde Sinusoidali $R_1 = 2.2k\Omega, R_2 = 8.2k\Omega$")
+plt.title("Onde Sinusoidali $R_1 = 2.2k\Omega, R_2 = 2.2k\Omega$")
 plt.legend(["Low Frequency", "-3dB Frequency"]) 
 plt.xlabel("Time normalized [1]")
 plt.ylabel("Voltage [mV]")
@@ -75,7 +75,7 @@ hf_cursor = lf_cursor - 3
 plt.plot([np.min(t_fft_2k2), np.max(t_fft_2k2)], [hf_cursor, hf_cursor], label='-3dB Frequency Cursor')
 
 plt.legend()
-plt.title("FFT $R_1 = 2.2k\Omega, R_2 = 8.2k\Omega$")
+plt.title("FFT $R_1 = 2.2k\Omega, R_2 = 2.2k\Omega$")
 plt.xlabel("Frequency [Hz]")
 plt.ylabel("Amplitude")
 plt.xscale("log")

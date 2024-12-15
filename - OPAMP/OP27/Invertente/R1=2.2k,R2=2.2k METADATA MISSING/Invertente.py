@@ -48,11 +48,11 @@ plt.figure(figsize=(6,4))
 plt.plot(t_sq_17k8, sq_17k8 * 1e3)
 
 
-min_line = np.max(sq_17k8[0] * 1e3 * gain)
-plt.fill_between(t_sq_17k8, sq_17k8[1] * 1e3, min_line, where=(sq_17k8[1] *1e3 > min_line), color='lightblue', alpha=0.7, label='Area above min line')
-
+# min_line = np.max(sq_17k8[0] * 1e3 * gain)
+# plt.fill_between(t_sq_17k8, sq_17k8[1] * 1e3, min_line, where=(sq_17k8[1] *1e3 > min_line), color='lightblue', alpha=0.7, label='Area above min line')
 # Customize the plot
-plt.axhline(min_line, color='black', linestyle='--', label='Minimum Line (0V)')  # Plot the minimum line (baseline)
+# plt.axhline(min_line, color='black', linestyle='--', label='Minimum Line (0V)')  # Plot the minimum line (baseline)
+
 plt.title("Onda Quadra $R_1 = 2.2k\Omega, R_2 = 8.2k\Omega$")
 plt.xlabel("Time [$\mu$s]")
 plt.ylabel("Voltage [mV]")
@@ -79,7 +79,7 @@ plt.legend()
 plt.title("FFT $R_1 = 2.2k\Omega, R_2 = 8.2k\Omega$")
 plt.xlabel("Frequency [Hz]")
 plt.ylabel("Amplitude")
-# plt.xscale("log")
+plt.xscale("log")
 plt.savefig("imgs/FFT_17k8.pdf")
 plt.show()
 plt.close()
