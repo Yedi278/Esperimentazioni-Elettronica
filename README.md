@@ -16,3 +16,6 @@ I dati per la caratterizzazione degli amplificatori sono contenuti nella sezione
 * AD848: riprendere una misrua non invertente a gain alto
 
 * OP27: Al non invertente R2 = 17.8k mancano delle misure
+
+* OP27: eseguire più misure sopra 17k per vedere andamento dell'overshoot
+
