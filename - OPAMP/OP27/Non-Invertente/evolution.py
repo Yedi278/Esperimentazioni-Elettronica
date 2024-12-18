@@ -27,7 +27,7 @@ for i in lista_misure:
         t_sq, sq = leggi_file(path_qf)
 
 
-        t_sq = t_sq / np.max(t_sq)
+        t_sq = t_sq / 4e-10
         sq = sq[1] - np.min(sq[1])
         sq = sq / np.max(sq)
 
