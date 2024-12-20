@@ -1,17 +1,20 @@
-18:07:56 **** Incremental Build of configuration Debug for project Comparatore ****
+12:28:45 **** Incremental Build of configuration Debug for project Comparatore ****
 make -j22 all 
 arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
-arm-none-eabi-gcc -o "Comparatore.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\6 - Comparatore\Comparatore\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Comparatore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+arm-none-eabi-gcc "../Core/Src/Custom_DMA.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_DMA.d" -MT"Core/Src/Custom_DMA.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_DMA.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "Comparatore.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\6 - Comparatore\Comparatore\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Comparatore.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: Comparatore.elf
  
 arm-none-eabi-size  Comparatore.elf 
 arm-none-eabi-objdump -h -S Comparatore.elf  > "Comparatore.list"
    text	   data	    bss	    dec	    hex	filename
-  39920	     16	   4200	  44136	   ac68	Comparatore.elf
+  39916	     16	   2280	  42212	   a4e4	Comparatore.elf
 Finished building: default.size.stdout
  
 Finished building: Comparatore.list
  
 
-18:07:57 Build Finished. 0 errors, 0 warnings. (took 1s.41ms)
+12:28:47 Build Finished. 0 errors, 0 warnings. (took 1s.213ms)
 

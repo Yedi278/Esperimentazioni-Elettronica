@@ -60,8 +60,8 @@ all: main-build
 main-build: DMA.elf secondary-outputs
 
 # Tool invocations
-DMA.elf DMA.map: $(OBJS) $(USER_OBJS) C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\5\ -\ DMA\DMA\STM32H743ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "DMA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\5 - DMA\DMA\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+DMA.elf DMA.map: $(OBJS) $(USER_OBJS) C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32\ -\ Codici\5\ -\ DMA\DMA\STM32H743ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "DMA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\5 - DMA\DMA\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -12,8 +12,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define PRETRIG_VALUE	1100UL
-#define TRIG_VALUE		1200UL
+#define PRETRIG_VALUE	2500UL
+#define TRIG_VALUE		3000UL
 
 extern bool triggd;
 extern bool pre_triggd;

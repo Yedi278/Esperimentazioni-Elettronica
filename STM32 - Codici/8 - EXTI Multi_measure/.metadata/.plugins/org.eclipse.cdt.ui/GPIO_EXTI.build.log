@@ -1,0 +1,18 @@
+10:41:58 **** Incremental Build of configuration Debug for project GPIO_EXTI ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc "../Core/Src/stm32h7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32h7xx_it.d" -MT"Core/Src/stm32h7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32h7xx_it.o"
+arm-none-eabi-gcc -o "GPIO_EXTI.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\8 - EXTI Multi_measure\GPIO_EXTI\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPIO_EXTI.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GPIO_EXTI.elf
+ 
+arm-none-eabi-size  GPIO_EXTI.elf 
+arm-none-eabi-objdump -h -S GPIO_EXTI.elf  > "GPIO_EXTI.list"
+   text	   data	    bss	    dec	    hex	filename
+  34276	     16	   4136	  38428	   961c	GPIO_EXTI.elf
+Finished building: default.size.stdout
+ 
+Finished building: GPIO_EXTI.list
+ 
+
+10:42:02 Build Finished. 0 errors, 0 warnings. (took 3s.602ms)
+

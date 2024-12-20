@@ -74,7 +74,7 @@ void ADC_custom_interrupt(){
 		triggd = 1;
 		pre_triggd = 0;
 //		trig_indx = DMA1_Stream0->NDTR;
-		trig_indx = (DMA1_Stream0->NDTR + 10UL)%1000UL + 1UL;	// conservo 100 dati prima del trigger
+		trig_indx = (DMA1_Stream0->NDTR + 10UL)%40UL + 1UL;	// conservo 100 dati prima del trigger
 		return;
 	}
 

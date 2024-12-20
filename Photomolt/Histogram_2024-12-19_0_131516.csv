@@ -1,0 +1,11 @@
+CPgHistogramExportSettings:Source:Ch3:
+Mode:Vertical:
+Incidence:Relative:
+XStart:2.47e-07:
+XStop:2.49e-07:
+YStart:0.12334:
+YStop:1.022:
+Timestamp:2024:12:19 13:15 28,522.904.880 s:
+SelectableHistogram:CPgmSelectableHistogram:0:ActiveKey:1:
+1:CPgSelectableHistogram:Key:1:
+Name:Histogram1:
