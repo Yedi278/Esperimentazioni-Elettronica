@@ -55,7 +55,7 @@ void ADC_custom_init(){
 
 void EXTI_custom_interrupt(){
 
-	if((TIM6->CR1 & TIM_CR1_CEN) == 0){	// se il timer è spento
+	if((TIM6->CR1 & TIM_CR1_CEN) == 0 && (USART->CR3 & USART_CR3_DMAT) == 0){	// se il timer è spento
 
 		DMA1_Stream0->NDTR = 1000;		// imposto numero di misure da eseguire
 

@@ -1,0 +1,2 @@
+../Core/Src/Custom_ADC.c:11:6:ADCx_custom_init	16	static
+../Core/Src/Custom_ADC.c:45:6:ADC_custom_init	8	static
