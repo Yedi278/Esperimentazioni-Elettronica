@@ -12,8 +12,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define PRETRIG_VALUE	2500UL
-#define TRIG_VALUE		3000UL
+#define PRETRIG_VALUE	3000UL
+#define TRIG_VALUE		5000UL
 
 void ADC_custom_init();
 
