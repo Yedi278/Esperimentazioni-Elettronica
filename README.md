@@ -10,14 +10,3 @@ I codici sorgente sono contenuti nella sezione: [**STM32 - COdici**](https://git
 
 ### Dati:
 I dati per la caratterizzazione degli amplificatori sono contenuti nella sezione [**OPAMP**](https://github.com/Yedi278/Esperimentazioni-Elettronica/tree/main/-%20OPAMP)
-
-# Da fare:
-
-* AD848: riprendere una misrua non invertente a gain alto
-
-* AD848: prendere misure di onda quadra per vedere andamento oscillatorio
-
-* OP27: Al non invertente R2 = 17.8k mancano delle misure
-
-* OP27: eseguire più misure sopra 17k per vedere andamento dell'overshoot
-
