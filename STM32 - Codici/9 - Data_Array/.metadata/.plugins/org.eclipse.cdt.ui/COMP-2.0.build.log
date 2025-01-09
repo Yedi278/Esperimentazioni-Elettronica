@@ -1,17 +1,10 @@
-11:27:20 **** Incremental Build of configuration Debug for project COMP-2.0 ****
+10:48:08 **** Incremental Build of configuration Debug for project COMP-2.0 ****
 make -j22 all 
-arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -Ofast -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
-arm-none-eabi-gcc -o "COMP-2.0.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\9 - Data_Array\COMP-2.0\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="COMP-2.0.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: COMP-2.0.elf
- 
 arm-none-eabi-size  COMP-2.0.elf 
-arm-none-eabi-objdump -h -S COMP-2.0.elf  > "COMP-2.0.list"
    text	   data	    bss	    dec	    hex	filename
   23012	     16	   5480	  28508	   6f5c	COMP-2.0.elf
 Finished building: default.size.stdout
  
-Finished building: COMP-2.0.list
- 
 
-11:27:21 Build Finished. 0 errors, 0 warnings. (took 956ms)
+10:48:08 Build Finished. 0 errors, 0 warnings. (took 377ms)
 

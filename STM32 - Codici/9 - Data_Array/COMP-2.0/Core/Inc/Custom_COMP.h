@@ -19,7 +19,7 @@ extern bool pre_triggd;
 
 #define V_to_uint12_t(x)(uint32_t)( (float)(3.3 * (float)(2 << 12)) / (float)x)
 
-#define SOGLIA_DAC  V_to_uint12_t(0.2)// ~0.8V
+//#define SOGLIA_DAC  V_to_uint12_t(0.2)// ~0.8V
 
 void COMP_custom_init();
 

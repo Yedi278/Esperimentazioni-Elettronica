@@ -387,3 +387,108 @@ Finished building: default.size.stdout
  
 Finished building: Dual ADC.list
  
+11:37:49 **** Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_COMP.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_COMP.d" -MT"Core/Src/Custom_COMP.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_COMP.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
+12:02:35 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
+12:06:38 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-size  Dual\ ADC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+12:13:03 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_ADC.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_ADC.d" -MT"Core/Src/Custom_ADC.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_ADC.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
+12:35:47 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_COMP.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_COMP.d" -MT"Core/Src/Custom_COMP.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_COMP.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
+12:39:45 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_COMP.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_COMP.d" -MT"Core/Src/Custom_COMP.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_COMP.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
+12:46:44 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_COMP.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_COMP.d" -MT"Core/Src/Custom_COMP.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_COMP.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38440	     16	   4152	  42608	   a670	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
+12:48:15 **** Incremental Build of configuration Debug for project Dual ADC ****
+make -j22 all 
+arm-none-eabi-gcc "../Core/Src/Custom_COMP.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -DUSE_PWR_LDO_SUPPLY -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Custom_COMP.d" -MT"Core/Src/Custom_COMP.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Custom_COMP.o"
+arm-none-eabi-gcc -o "Dual ADC.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\STM32 - Codici\10 - Dual ADC\Dual ADC\STM32H743ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Dual ADC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Dual ADC.elf
+ 
+arm-none-eabi-size  Dual\ ADC.elf 
+arm-none-eabi-objdump -h -S Dual\ ADC.elf  > "Dual ADC.list"
+   text	   data	    bss	    dec	    hex	filename
+  38416	     16	   4152	  42584	   a658	Dual ADC.elf
+Finished building: default.size.stdout
+ 
+Finished building: Dual ADC.list
+ 
