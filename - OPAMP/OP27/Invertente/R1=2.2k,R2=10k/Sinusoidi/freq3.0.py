@@ -1,0 +1,74 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import sys
+
+# Read the data
+data = pd.read_csv('hf.csv', delimiter=',', header=None)
+res = 'Error'
+#Find Resolution from metadta
+with open('hf.metadata.csv', 'r') as f:
+    lines = f.readlines()
+    for i in lines:
+        words = i.split(':')
+        for j in range(len(words)):
+            if words[j] == 'Resolution':
+                res = float(words[j+1])
+                res2 = float(words[j+1])
+                print("Resolution: ", res)
+            
+
+data2 = data[1].to_numpy(dtype=np.float32)
+data = data[0].to_numpy(dtype=np.float32)
+
+
+time = np.linspace(0, len(data)*res, len(data))
+time2 = np.linspace(0, len(data2)*res2, len(data2))
+
+# find local maximum of (x,y) data
+def find_peaks(data, n=20):
+    peaks = []
+    for i in range(1, len(data)-1):
+        try:
+            if data[i] > data[i-n] and data[i] > data[i+n]:
+                peaks.append(i)
+        except:
+            pass
+    #group similar peaks
+    i = 0
+    while i < len(peaks)-1:
+        if peaks[i+1] - peaks[i] < n:
+            if data[peaks[i+1]] > data[peaks[i]]:
+                peaks.pop(i)
+            else:
+                peaks.pop(i+1)
+        else:
+            i += 1
+    return peaks
+
+if len(sys.argv) > 1:
+    peaks = find_peaks(data, int(sys.argv[1]))
+    peaks2 = find_peaks(data2, int(sys.argv[1]))[1:]
+else:
+    peaks = find_peaks(data)
+    peaks2 = find_peaks(data2)
+
+plt.scatter(time[peaks], data[peaks], color='green')
+plt.scatter(time2[peaks2], data2[peaks2], color='red')
+
+print("Number of peaks: ", len(peaks), len(peaks2))
+
+plt.plot(time, data)
+plt.plot(time2, data2)
+
+freqs = []
+freqs2 = []
+for i in range(1, len(peaks)):
+    freqs.append(1/(time[peaks[i]] - time[peaks[i-1]]))
+for i in range(1, len(peaks2)):
+    freqs2.append(1/(time2[peaks2[i]] - time2[peaks2[i-1]]))
+
+print("Frequenza del segnale:\t",round(np.mean(freqs)/1e6, 4), "±", round(np.std(freqs)/1e6, 4), "MHz")
+print("Frequenza del segnale2:\t",round(np.mean(freqs2)/1e6, 4), "±", round(np.std(freqs2)/1e6, 4), "MHz")
+
+plt.show()

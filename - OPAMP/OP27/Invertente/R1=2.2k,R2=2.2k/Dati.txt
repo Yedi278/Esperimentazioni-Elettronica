@@ -1,0 +1,10 @@
+Sin: 3.88 MHz
+Quad: 75.5ns --> 4.63Mhz
+Fft: 4.02Mhz
+
+Gain: 1
+
+BW1 = 3.88
+BW2 = 4.63
+BW3 = 4.02
+
