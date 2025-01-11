@@ -1,0 +1,3 @@
+sinusoide: 2.20 ± 0.02 MHz
+quadra: 178.35 ns
+fft: 	2.20 MHz

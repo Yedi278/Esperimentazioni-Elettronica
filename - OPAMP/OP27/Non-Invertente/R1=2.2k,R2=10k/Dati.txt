@@ -1,0 +1,3 @@
+Sinusoide: 1.97 ± 0.04 MHz
+Quadra: 309.73 ns
+fft: 1.99 MHz
