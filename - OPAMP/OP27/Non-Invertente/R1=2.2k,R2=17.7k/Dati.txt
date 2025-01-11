@@ -1,3 +1,9 @@
 Sinusoide: 1.102 ± 0.008 MHz
-Quadra: 18.108ns
+Quadra: 310ns --> 1.12Mhz
 fft: 1.098Mhz
+
+Gain = 9.1
+
+BW1 = 9.3
+BW2 = 10.2
+BW3 = 9.4

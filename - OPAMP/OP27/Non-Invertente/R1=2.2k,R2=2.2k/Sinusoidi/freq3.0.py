@@ -17,7 +17,10 @@ with open('hf.metadata.csv', 'r') as f:
                 res = float(words[j+1])
                 print("Resolution: ", res)
 
+data2 = data[1].to_numpy(dtype=np.float32)
 data = data[0].to_numpy(dtype=np.float32)
+
+
 time = np.linspace(0, len(data)*res, len(data))
 
 # find local maximum of (x,y) data
@@ -43,17 +46,27 @@ def find_peaks(data, n=20):
 
 if len(sys.argv) > 1:
     peaks = find_peaks(data, int(sys.argv[1]))
+    peaks2 = find_peaks(data2, int(sys.argv[1]))
 else:
     peaks = find_peaks(data)
+    peaks2 = find_peaks(data2)
     
-plt.scatter(time[peaks], data[peaks], color='red')
-print("Number of peaks: ", len(peaks))
+plt.scatter(time[peaks], data[peaks], color='green')
+plt.scatter(time[peaks2], data2[peaks2], color='red')
+
+print("Number of peaks: ", len(peaks), len(peaks2))
 
 plt.plot(time, data)
+plt.plot(time, data2)
 
 freqs = []
+freqs2 = []
 for i in range(1, len(peaks)):
     freqs.append(1/(time[peaks[i]] - time[peaks[i-1]]))
+for i in range(1, len(peaks2)):
+    freqs2.append(1/(time[peaks2[i]] - time[peaks2[i-1]]))
 
 print("Frequenza del segnale:\t",round(np.mean(freqs)/1e6, 4), "±", round(np.std(freqs)/1e6, 4), "MHz")
+print("Frequenza del segnale2:\t",round(np.mean(freqs2)/1e6, 4), "±", round(np.std(freqs2)/1e6, 4), "MHz")
+
 plt.show()

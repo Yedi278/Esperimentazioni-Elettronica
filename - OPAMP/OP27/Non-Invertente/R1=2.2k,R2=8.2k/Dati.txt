@@ -1,3 +1,9 @@
-sinusoide: 2.20 ± 0.02 MHz
-quadra: 178.35 ns
+sinusoide: 2.19 ± 0.02 MHz
+quadra: 179 ns --> 1.96Mhz
 fft: 	2.20 MHz
+
+Gain = 4.7272
+
+BW1 = 10.4 MHz
+BW2 = 9.3 MHz
+BW3 = 10.4 MHZ
