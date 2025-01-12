@@ -1,6 +1,10 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+os.chdir(dir_path)
 
 # Carico i dati
 df = pd.read_csv('Dati_tot.csv', delimiter=',')
@@ -18,7 +22,7 @@ plt.plot(df['gain'],df['overshoot'], label='overshoot', marker='v')
 plt.ylabel('Overshoot (%)')
 plt.xlabel('Gain (dB)')
 plt.legend()
-plt.savefig('Non_Invert_Dati_tot.pdf', format='pdf', bbox_inches='tight')
+plt.savefig('Invert_Dati_tot.pdf', format='pdf', bbox_inches='tight')
 plt.show()
 
 # Calcolo la media
