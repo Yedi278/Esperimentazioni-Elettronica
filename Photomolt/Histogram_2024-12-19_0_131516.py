@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv('/Users/ibolde/coding/Esperimentazioni-Elettronica/Photomolt/Histogram_2024-12-19_0_131516.Wfm.csv')
+data = pd.read_csv('Esperimentazioni-Elettronica/Photomolt/Histogram_2024-12-19_0_131516.Wfm.csv')
 
 
 #45 , 52
