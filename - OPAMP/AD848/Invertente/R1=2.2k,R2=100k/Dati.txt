@@ -1,0 +1,7 @@
+quadra:	125.9ns → 2.78Mhz
+fft:		2.91Mhz
+
+Gain:	45.5
+
+BW1:	126.5
+BW2:	132.4
