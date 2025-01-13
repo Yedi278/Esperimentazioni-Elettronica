@@ -3,6 +3,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import sys
+import os
+
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 # Usage:
 # python Plotter.py <file_name> <raw_data>
