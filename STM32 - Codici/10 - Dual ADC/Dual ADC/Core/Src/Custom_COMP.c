@@ -17,7 +17,7 @@ void COMP_custom_init(){
 
 	DAC1->CR |= DAC_CR_EN1;			// attivo DAC
 
-	DAC1->DHR12R1 = 150;			// imposto soglia del comparatore IN 12 BIT NON 16
+	DAC1->DHR12R1 = 130;			// imposto soglia del comparatore IN 12 BIT NON 16
 
 	DAC1->SWTRIGR |= DAC_SWTRIGR_SWTRIG1;
 

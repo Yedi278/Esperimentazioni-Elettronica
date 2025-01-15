@@ -562,9 +562,9 @@ void COMP_custom_init(){
  8000712:	f043 0301 	orr.w	r3, r3, #1
  8000716:	6013      	str	r3, [r2, #0]
 
-	DAC1->DHR12R1 = 150;			// imposto soglia del comparatore IN 12 BIT NON 16
+	DAC1->DHR12R1 = 130;			// imposto soglia del comparatore IN 12 BIT NON 16
  8000718:	4b12      	ldr	r3, [pc, #72]	@ (8000764 <COMP_custom_init+0x5c>)
- 800071a:	2296      	movs	r2, #150	@ 0x96
+ 800071a:	2282      	movs	r2, #130	@ 0x82
  800071c:	609a      	str	r2, [r3, #8]
 
 	DAC1->SWTRIGR |= DAC_SWTRIGR_SWTRIG1;

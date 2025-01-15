@@ -305,3 +305,10 @@ arm-none-eabi-size  COMP-2.0.elf
   23012	     16	   5480	  28508	   6f5c	COMP-2.0.elf
 Finished building: default.size.stdout
  
+11:25:49 **** Incremental Build of configuration Debug for project COMP-2.0 ****
+make -j22 all 
+arm-none-eabi-size  COMP-2.0.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23012	     16	   5480	  28508	   6f5c	COMP-2.0.elf
+Finished building: default.size.stdout
+ 
