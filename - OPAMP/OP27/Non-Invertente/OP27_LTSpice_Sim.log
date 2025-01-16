@@ -1,6 +1,6 @@
 LTspice 24.1.0 for Windows
 Circuit: C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\- OPAMP\OP27\Non-Invertente\OP27_LTSpice_Sim.net
-Start Time: Wed Jan 15 17:46:24 2025
+Start Time: Thu Jan 16 09:28:12 2025
 solver = Normal
 Maximum thread count: 22
 tnom = 27
@@ -14,8 +14,27 @@ C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\- OPAMP\OP27\Non-Inver
 
 Vin IN 0 PULSE(0 20e-3 0 20e-9 0 1 1e-6) Rser=0.5
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Direct Newton iteration for .op point succeeded.
-Total elapsed time: 0.056 seconds.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.123 seconds.
 
 Files loaded:
 C:\Users\yehan\Documents\Uni\Esperimentazioni-Elettronica\- OPAMP\OP27\Non-Invertente\OP27_LTSpice_Sim.net
