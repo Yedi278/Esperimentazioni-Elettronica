@@ -27,21 +27,18 @@ def linear(x, a, b):
 
 sigma = 1
 
-cost = LeastSquares(df['OV[V]'][6:], df['Time[ms]'][6:], sigma, linear)
+cost = LeastSquares(df['OV[V]'][5:], df['Time[ms]'][5:], sigma, linear)
 m = Minuit(cost, a=1, b=0)
 m.migrad()
 m.hesse()
 
-plt.title('Dark Count Rate')
-plt.scatter(df['OV[V]'][6:], df['Time[ms]'][6:])
-plt.plot()
-plt.errorbar(df['OV[V]'][6:], linear(df['OV[V]'][6:], m.values['a'], m.values['b']), yerr=sigma, color='red', capsize=2)
+plt.figure(figsize=(10,5))
+plt.subplot(122)
+plt.title('Dark Count Rate intero range')
+plt.scatter(df['OV[V]'][5:], df['Time[ms]'][5:])
+plt.errorbar(df['OV[V]'][5:], linear(df['OV[V]'][5:], m.values['a'], m.values['b']), yerr=sigma, color='red', capsize=2)
 plt.ylabel('Time[ms]')
 plt.xlabel('Overvoltage [V]')
-
-print(m)
-plt.savefig('SiPm_DCR_Linear.pdf', bbox_inches='tight')
-plt.show()
 
 # exponential fit
 
@@ -50,18 +47,19 @@ def f_exp(x, a, b, c, t):
     
 sigma = 10
 
-cost = LeastSquares(df['OV[V]'], df['Time[ms]'], sigma, f_exp)
-m = Minuit(cost, a=1e7, b=-2, c=100, t=-50)
+cost = LeastSquares(df['OV[V]'][:], df['Time[ms]'][:], sigma, f_exp)
+m = Minuit(cost, a=1e7, b=-2, c=500, t=-50)
 m.migrad()
 m.hesse()
 
-plt.title('Dark Count Rate')
+plt.subplot(121)
+plt.title('Dark Count Rate zona Lineare')
 plt.scatter(df['OV[V]'], df['Time[ms]'])
-# plt.yscale('log')
-plt.plot()
-plt.errorbar(df['OV[V]'], f_exp(df['OV[V]'], m.values['a'], m.values['b'], m.values['c'], m.values['t']), yerr=sigma, color='red', capsize=2)
+plt.errorbar(df['OV[V]'][:], f_exp(df['OV[V]'][:], m.values['a'], m.values['b'], m.values['c'], m.values['t']), yerr=sigma, color='red', capsize=2)
 plt.ylabel('Time[ms]')
 plt.xlabel('Overvoltage [V]')
-print(m)
-plt.savefig('SiPm_DCR_Exponential.pdf', bbox_inches='tight')
+plt.savefig('SiPm_DCR.pdf', format='pdf', bbox_inches='tight', dpi=500)
 plt.show()
+
+print(40000/np.mean(df['Time[ms]'][5:]))
+print(np.std(df['Time[ms]'][5:]))
