@@ -1,2 +1,0 @@
-../Core/Src/Custom_COMP.c:16:6:COMP_custom_init	1
-../Core/Src/Custom_COMP.c:33:6:TIM7_custom_interrupt	5

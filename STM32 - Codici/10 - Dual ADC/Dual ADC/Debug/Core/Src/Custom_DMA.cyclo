@@ -1,4 +1,0 @@
-../Core/Src/Custom_DMA.c:15:6:DMA_custom_init	1
-../Core/Src/Custom_DMA.c:46:6:DMA_custom_interrupt_tx	1
-../Core/Src/Custom_DMA.c:67:6:DMA_custom_interrupt_rx	2
-../Core/Src/Custom_DMA.c:81:6:DMA2_custom_interrupt	1
