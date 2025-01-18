@@ -1,3 +1,0 @@
-../Core/Src/Custom_COMP.c:15:6:blink	2
-../Core/Src/Custom_COMP.c:23:6:COMP_custom_init	1
-../Core/Src/Custom_COMP.c:39:6:TIM7_custom_interrupt	4
