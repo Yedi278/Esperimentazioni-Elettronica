@@ -5,7 +5,7 @@ import os
 
 os.chdir(os.path.dirname(__file__))
 
-df = pd.read_csv('dati_raw.csv', sep=',', header=None)
+df = pd.read_csv('dati_buio_raw.csv', sep=',', header=None)
 
 data_buffer = df.to_numpy(dtype=np.float32)
 
@@ -23,10 +23,10 @@ for shift in range(shift_lim, shift_lim+1):
 
 plt.title('Spettro')
 plt.hist(meas, bins=300, alpha=1, color='firebrick')
-plt.xlim(0.1, 1.5)
+plt.xlim(0.15, .5)
+plt.xticks(np.arange(0.15, 0.5, 0.05))
+
 plt.ylabel('Bin Count [n]')
 plt.xlabel('Tensione [V]')
-plt.xticks(np.arange(0.1, 1.5, 0.1))
-
 plt.savefig('Spettro_dati1.pdf', bbox_inches='tight', dpi=300)
 plt.show()
