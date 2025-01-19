@@ -5,19 +5,18 @@ import os
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-df = pd.read_csv('dati_YAlG_2.csv', header=None)
+df = pd.read_csv('buio_raw.csv', header=None)
 
 data_buffer = df.to_numpy(dtype=float)
-print(data_buffer.shape)
 
 lx_SiPm = []
 rx_SiPm = []
 shift = 50
-for i in range(data_buffer.shape[1]):
-    lx_SiPm.append(data_buffer[shift,i])
-    rx_SiPm.append(data_buffer[400+shift,i])
+for i in range(data_buffer.shape[0]):
+    lx_SiPm.append(data_buffer[i,shift])
+    rx_SiPm.append(data_buffer[i, 400+shift])
 
-nbin = 500
+nbin = 100
 plt.hist(lx_SiPm, bins=nbin, density=True)
 plt.hist(rx_SiPm, bins=nbin, density=True)
 plt.xlim((0,0.15))
