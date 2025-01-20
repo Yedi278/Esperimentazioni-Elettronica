@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import scipy.stats as stats
 import os
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -18,11 +19,12 @@ for i in range(data_buffer.shape[0]):
 
 nbin = 1000
 plt.hist(lx_SiPm, bins=nbin, density=True, alpha=0.5, color='firebrick', label='Left SiPm')
+rx_SiPm = np.array(rx_SiPm) * np.std(lx_SiPm) / np.std(rx_SiPm) - np.mean(rx_SiPm) + np.mean(lx_SiPm)
 plt.hist(rx_SiPm, bins=nbin, density=True, alpha=0.5, color='steelblue', label='Right SiPm')
 plt.xlim((0,0.15))
 plt.legend()
-plt.title('YAlG dark count')
+plt.title('YAlG with 22Na')
 plt.xlabel('Amplitude (V)')
 plt.ylabel('Normalized counts')
-plt.savefig('YAlG_dark_count.pdf', bbox_inches='tight', dpi=300)
+plt.savefig('YAlG.pdf', bbox_inches='tight', dpi=300)
 plt.show()

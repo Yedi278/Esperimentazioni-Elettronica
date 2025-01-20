@@ -21,14 +21,20 @@ for i in range(data.shape[0]):
     if data[i, 400+15] > 0.15:
         rx.append(data[i, 400+15])
 
+rx = np.array(rx)
+
 bin = 200
 plt.figure(figsize=(8,6))
 plt.title('BGO with 22Na')
-plt.hist(lx, bins=bin, density=True, alpha=0.5, color='firebrick')
-plt.hist(rx, bins=bin, density=True, alpha=0.5, color='steelblue')
+plt.hist(lx, bins=bin, density=True, alpha=0.5, color='firebrick', label='Left SiPm')
+new_rx = (rx*np.std(lx)/np.std(rx))
+plt.hist(new_rx -np.median(new_rx)+np.median(lx), bins=bin, density=True, alpha=0.5, color='steelblue', label='Right SiPm')
+
 plt.xlabel('Amplitude (V)')
 plt.ylabel('Normalized counts')
-plt.savefig('BGO_22Na_hist1.pdf', bbox_inches='tight', dpi=300)
+plt.savefig('BGO_22Na_hist1_mod.pdf', bbox_inches='tight', dpi=300)
+plt.legend()
+plt.xlim(0.1, None)
 plt.show()
 
 plt.figure(figsize=(8,6))
@@ -45,5 +51,5 @@ plt.ylabel('Normalized counts')
 plt.hist(rx, bins=bin, density=True, alpha=0.5, color='steelblue', label='Right SiPm')
 plt.legend()
 plt.xlim(0.1, None)
-plt.savefig('BGO_22Na_hist2.pdf', bbox_inches='tight', dpi=300)
+# plt.savefig('BGO_22Na_hist2.pdf', bbox_inches='tight', dpi=300)
 plt.show()
