@@ -22,7 +22,12 @@ plt.plot(df_ni['Gain'],df_ni['overshoot'], marker='v', label='Non Invertente')
 plt.ylabel('Overshoot [%]')
 plt.xlabel('Gain [1]')
 plt.savefig('AD848_dati_tot.pdf', format='pdf', bbox_inches='tight')
+
+plt.subplots_adjust( hspace=0.4)
+
+plt.savefig('AD848_dati_tot.pdf', format='pdf', bbox_inches='tight')
 plt.show()
+#plt.clf()
 
 bw = np.append(df_inv['BW'].to_numpy(dtype=float), df_ni['BW'].to_numpy(dtype=float))
 print("Bandwith for AD848: ",np.mean(bw),'±', np.std(bw))
